@@ -1,0 +1,18 @@
+exclude: [ Gemfile, Gemfile.lock]
+
+sitename: Eddie Hedges
+tagline: Eddie Hedges, Programming, Web Development, Web Design, Code, Hacker
+
+production_url: https://edhedges.github.com
+url: https://edhedges.github.com
+baseurl: /
+
+safe: false
+auto: true
+future: false
+pygments: true
+markdown: maruku
+permalink: pretty
+
+tag_page_layout: tag_page
+tag_page_dir: tag

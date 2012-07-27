@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eddie Hedges">
+    <meta name="description" content="Eddie Hedges is a web developer that enjoys both front and back end development. This includes markup, styling, user interface, functionality, and data store. This website will have information about programming, web development and design, python, ruby, javascript, html, css, open source, and possibly some health/nutrition information.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {% if page.layout == "tag_page" %}
+      <title>Eddie Hedges - {{ page.tag }}</title>
+    {% else %}
+      <title>Eddie Hedges - {{ page.title }}</title>
+    {% endif %}
+    <link href="http://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/edstyles.min.css">
+  </head>
+  <body>
+    <div id="forkme"><a href="https://github.com/edhedges"><img src="/img/forkme.png" alt="Fork me on GitHub"></a></div>
+      <div class="container">
+        <header>
+          <div class="eight columns">
+            <h1><a href="/">Eddie Hedges</a></h1>
+          </div>
+          <div class="eight columns">
+            <ul id="social_list">
+              <li id="githubicon"><a title="GitHub Profile" id="octoicon" href="https://github.com/edhedges"></a></li>
+              <li><a title="Reddit Profile" id="redditicon" href="http://www.reddit.com/user/EhWardo/"></a></li>
+              <li><a title="Facebook Profile" id="facebookicon" href="https://www.facebook.com/circlejerkEd"></a></li>
+              <li><a title="Twitter Profile" id="twittericon" href="https://twitter.com/#!/Dwedard"></a></li>
+              <li><a title="LinkIn Profile" id="linkedinicon" href="http://www.linkedin.com/pub/eddie-hedges/3b/167/168"></a></li>
+              <li><a title="RSS Feed" id="rssicon" href="/atom.xml"></a></li>
+            </ul>
+          </div>
+          <div class="sixteen columns">
+            <hr />
+          </div>
+        </header>

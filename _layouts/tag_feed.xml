@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eddie Hedges - {{ page.tag }}</title>
+  <link href="http://edhedges.github.com{{ page.url }}" rel="self"/>
+  <link href="http://edhedges.github.com/tag/{{ page.tag }}.html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://edhedges.github.com/tag/{{ page.tag }}.html</id>
+  <author>
+    <name>Eddie Hedges</name>
+  </author>
+  {% for post in page.posts %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="http://edhedges.github.com{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>http://edhedges.github.com{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>

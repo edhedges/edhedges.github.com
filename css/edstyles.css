@@ -1,0 +1,900 @@
+/*! normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects inline-block display not defined in IE6/7/8/9 & FF3
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying 'audio' without controls
+ * Remove excess height in iOS5 devices
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+ * Known issue: no IE6 support
+ */
+
+[hidden] {
+    display: none;
+}
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7
+ */
+
+body {
+    margin: 0;
+}
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses outline displayed oddly in Chrome
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers
+ * people.opera.com/patrickl/experiments/keyboard/test
+ */
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE6/7
+ * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+ */
+
+h1, h2, h3, h4{
+  font-family: 'Nunito', Verdana, sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h1 {
+    font-size: 2.15em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 0.6em 0;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: .9em 0;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE7/8/9, S5, Chrome
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+*/
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in S5, Chrome
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE6/7/8/9
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE6, S4/5, Chrome
+ * en.wikipedia.org/wiki/User:Davidgothberg/Test59
+ */
+
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * 1. Addresses CSS quotes not supported in IE6/7
+ * 2. Addresses quote property not supported in S4
+ */
+
+/* 1 */
+
+q {
+    quotes: none;
+}
+
+/* 2 */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+small {
+    font-size: 75%;
+}
+
+/*
+ * Prevents sub and sup affecting line-height in all browsers
+ * gist.github.com/413930
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+    list-style: none;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7
+ */
+
+menu,
+ol,
+ul,
+dl{
+    padding: 0;
+}
+
+ul li{
+  margin: 10px 0px;
+}
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside 'a' element in IE6/7/8/9, FF3
+ * 2. Improves image quality when scaled in IE7
+ *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE9
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE6/7/8/9, S5, O11
+ */
+
+figure {
+    margin: 0;
+}
+
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE6/7
+ */
+
+form {
+    margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE6/7/8/9
+ * 2. Corrects text not wrapping in FF3
+ * 3. Corrects alignment displayed oddly in IE6/7
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers
+ * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
+ * 3. Improves appearance and consistency in all browsers
+ */
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+ */
+
+button,
+input {
+    line-height: normal; /* 1 */
+}
+
+/*
+ * 1. Improves usability and consistency of cursor style between image-type 'input' and others
+ * 2. Corrects inability to style clickable 'input' types in iOS
+ * 3. Removes inner spacing in IE7 without affecting normal text inputs
+ *    Known issue: inner spacing remains in IE6
+ */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer; /* 1 */
+    -webkit-appearance: button; /* 2 */
+    *overflow: visible;  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE8/9
+ * 2. Removes excess padding in IE8/9
+ * 3. Removes excess padding in IE7
+      Known issue: excess padding remains in IE6
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses appearance set to searchfield in S5, Chrome
+ * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in S5, Chrome on OS X
+ */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in FF3+
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE6/7/8/9
+ * 2. Improves readability and alignment in all browsers
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+.container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+.container .column,
+.container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+.row                                        { margin-bottom: 25px; }
+
+/* Nested Column Classes */
+.column.alpha, .columns.alpha               { margin-left: 0; }
+.column.omega, .columns.omega               { margin-right: 0; }
+
+/* Base Grid */
+.container .one.column,
+.container .one.columns                     { width: 40px;  }
+.container .two.columns                     { width: 100px; }
+.container .three.columns                   { width: 160px; }
+.container .four.columns                    { width: 220px; }
+.container .five.columns                    { width: 280px; }
+.container .six.columns                     { width: 340px; }
+.container .seven.columns                   { width: 400px; }
+.container .eight.columns                   { width: 460px; }
+.container .nine.columns                    { width: 520px; }
+.container .ten.columns                     { width: 580px; }
+.container .eleven.columns                  { width: 640px; }
+.container .twelve.columns                  { width: 700px; }
+.container .thirteen.columns                { width: 760px; }
+.container .fourteen.columns                { width: 820px; }
+.container .fifteen.columns                 { width: 880px; }
+.container .sixteen.columns                 { width: 940px; }
+
+.container .one-third.column                { width: 300px; }
+.container .two-thirds.column               { width: 620px; }
+
+/* Offsets */
+.container .offset-by-one                   { padding-left: 60px;  }
+.container .offset-by-two                   { padding-left: 120px; }
+.container .offset-by-three                 { padding-left: 180px; }
+.container .offset-by-four                  { padding-left: 240px; }
+.container .offset-by-five                  { padding-left: 300px; }
+.container .offset-by-six                   { padding-left: 360px; }
+.container .offset-by-seven                 { padding-left: 420px; }
+.container .offset-by-eight                 { padding-left: 480px; }
+.container .offset-by-nine                  { padding-left: 540px; }
+.container .offset-by-ten                   { padding-left: 600px; }
+.container .offset-by-eleven                { padding-left: 660px; }
+.container .offset-by-twelve                { padding-left: 720px; }
+.container .offset-by-thirteen              { padding-left: 780px; }
+.container .offset-by-fourteen              { padding-left: 840px; }
+.container .offset-by-fifteen               { padding-left: 900px; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container                                  { width: 768px; }
+.container .column,
+.container .columns                         { margin-left: 10px; margin-right: 10px;  }
+.column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+.column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+.alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+.container .one.column,
+.container .one.columns                     { width: 28px; }
+.container .two.columns                     { width: 76px; }
+.container .three.columns                   { width: 124px; }
+.container .four.columns                    { width: 172px; }
+.container .five.columns                    { width: 220px; }
+.container .six.columns                     { width: 268px; }
+.container .seven.columns                   { width: 316px; }
+.container .eight.columns                   { width: 364px; }
+.container .nine.columns                    { width: 412px; }
+.container .ten.columns                     { width: 460px; }
+.container .eleven.columns                  { width: 508px; }
+.container .twelve.columns                  { width: 556px; }
+.container .thirteen.columns                { width: 604px; }
+.container .fourteen.columns                { width: 652px; }
+.container .fifteen.columns                 { width: 700px; }
+.container .sixteen.columns                 { width: 748px; }
+
+.container .one-third.column                { width: 236px; }
+.container .two-thirds.column               { width: 492px; }
+
+/* Offsets */
+.container .offset-by-one                   { padding-left: 48px; }
+.container .offset-by-two                   { padding-left: 96px; }
+.container .offset-by-three                 { padding-left: 144px; }
+.container .offset-by-four                  { padding-left: 192px; }
+.container .offset-by-five                  { padding-left: 240px; }
+.container .offset-by-six                   { padding-left: 288px; }
+.container .offset-by-seven                 { padding-left: 336px; }
+.container .offset-by-eight                 { padding-left: 384px; }
+.container .offset-by-nine                  { padding-left: 432px; }
+.container .offset-by-ten                   { padding-left: 480px; }
+.container .offset-by-eleven                { padding-left: 528px; }
+.container .offset-by-twelve                { padding-left: 576px; }
+.container .offset-by-thirteen              { padding-left: 624px; }
+.container .offset-by-fourteen              { padding-left: 672px; }
+.container .offset-by-fifteen               { padding-left: 720px; }
+}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+.container { width: 300px; }
+.container .columns,
+.container .column { margin: 0; }
+
+.container .one.column,
+.container .one.columns,
+.container .two.columns,
+.container .three.columns,
+.container .four.columns,
+.container .five.columns,
+.container .six.columns,
+.container .seven.columns,
+.container .eight.columns,
+.container .nine.columns,
+.container .ten.columns,
+.container .eleven.columns,
+.container .twelve.columns,
+.container .thirteen.columns,
+.container .fourteen.columns,
+.container .fifteen.columns,
+.container .sixteen.columns,
+.container .one-third.column,
+.container .two-thirds.column  { width: 300px; }
+
+/* Offsets */
+.container .offset-by-one,
+.container .offset-by-two,
+.container .offset-by-three,
+.container .offset-by-four,
+.container .offset-by-five,
+.container .offset-by-six,
+.container .offset-by-seven,
+.container .offset-by-eight,
+.container .offset-by-nine,
+.container .offset-by-ten,
+.container .offset-by-eleven,
+.container .offset-by-twelve,
+.container .offset-by-thirteen,
+.container .offset-by-fourteen,
+.container .offset-by-fifteen { padding-left: 0; }
+
+}
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container { width: 420px; }
+.container .columns,
+.container .column { margin: 0; }
+
+.container .one.column,
+.container .one.columns,
+.container .two.columns,
+.container .three.columns,
+.container .four.columns,
+.container .five.columns,
+.container .six.columns,
+.container .seven.columns,
+.container .eight.columns,
+.container .nine.columns,
+.container .ten.columns,
+.container .eleven.columns,
+.container .twelve.columns,
+.container .thirteen.columns,
+.container .fourteen.columns,
+.container .fifteen.columns,
+.container .sixteen.columns,
+.container .one-third.column,
+.container .two-thirds.column { width: 420px; }
+}
+
+/* #Clearing
+================================================== */
+
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+content: '\0020';
+display: block;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+height: 0; }
+.row:after,
+.clearfix:after {
+clear: both; }
+.row,
+.clearfix {
+zoom: 1; }
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+clear: both;
+display: block;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+height: 0;
+}
+
+/*
+Eddie's Styles
+*/
+body{
+  background-color: #fff;
+  color: #273640;
+}
+
+a, a:visited{
+  text-decoration: none;
+  color: #F2864A;
+}
+
+a:hover, a:active{
+  color: #E53300;
+}
+
+h1 a, h1 a:visited, h1 a:hover, h1 a:active, h2, h3, h4, h5, h6 { color: #2E404C;}
+
+header h1{
+  height: 40px;
+  width: 300px;
+  padding: 0;
+  margin: 10px auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#social_list{
+  list-style-type: none;
+  height: 35px;
+  width: 275px;
+  padding: 0px 0px 0px 0px;
+  margin: 10px auto;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#arsenal_list {
+  width: 295px;
+  padding: 0px 2px 0px 0px;
+  margin: 50px auto;
+}
+
+#social_list li{
+  display: inline;
+  margin: 0px 3px 0px 3px;
+  padding: 0 0 0 0;
+}
+
+#arsenal_list li{
+  display: inline;
+  margin: 0px 3px 0px 3px;
+}
+
+#social_list li a { background-image: url('../img/social.png'); background-repeat:no-repeat; display: inline-block; }
+#social_list li a#facebookicon { background-position: 0 0; width: 32px; height: 32px; }
+#social_list li a#octoicon { background-position: 0 -82px; width: 32px; height: 32px; }
+#social_list li a#linkedinicon { background-position: 0 -164px; width: 32px; height: 32px; }
+#social_list li a#redditicon { background-position: 0 -246px; width: 32px; height: 32px; }
+#social_list li a#rssicon { background-position: 0 -328px; width: 32px; height: 32px; }
+#social_list li a#twittericon { background-position: 0 -410px; width: 32px; height: 32px; }
+#arsenal_list li a { background-image: url('../img/arsenal.png'); background-repeat:no-repeat; display: inline-block; }
+#arsenal_list li a#html5logo { background-position: 0 -196px; width: 48px; height: 48px; }
+#arsenal_list li a#css3logo { background-position: 0 0; width: 48px; height: 48px; }
+#arsenal_list li a#jquerylogo { background-position: 0 -294px; width: 48px; height: 48px; }
+#arsenal_list li a#djangologo { background-position: 0 -98px; width: 48px; height: 48px; }
+#arsenal_list li a#mysqllogo { background-position: 0 -392px; width: 48px; height: 48px; }
+
+hr{
+  border: solid #fcfcfc;
+  border-width: 1px 0 0;
+  border-style: inset;
+  clear: both;
+  padding: 0;
+  margin: 0px 0 30px;
+  height: 0;
+}
+
+#forkme{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+#social_list #githubicon{
+  display: none;
+}
+
+@media only screen and (min-width: 1100px){
+  #forkme{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1099px){
+  #social_list #githubicon{
+    display: inline;
+  }
+}
+
+footer {
+  width: 225px;
+  margin: 0 auto;
+}
+
+footer p{
+  text-align: center;
+}
+
+#current_tooltip {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-size: 80%;
+}
+
+.blog_post {
+  margin-bottom: 15px;
+}
+
+.blog_post p {
+  margin: 0;
+}
+
+.blog_post label, .blog_post ul, .blog_post li, .blog_post li a {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+#tag_cloud a {
+  display: inline-block;
+  width: 150px;
+  background-color: #C8F2FF;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 3px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
