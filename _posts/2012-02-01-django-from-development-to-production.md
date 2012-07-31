@@ -12,7 +12,9 @@ In this blog I will briefly describe my process of taking my local development w
 
 For my development process I am using the simple local server that django/python provides you by running:
 
-`python manage.py runserver`
+{% highlight pycon %}
+python manage.py runserver
+{% endhighlight %}
 
 If you are a more experienced dev then there are things such as [virtualenv](http://pypi.python.org/pypi/virtualenv) and [fabric](http://docs.fabfile.org/en/1.3.4/index.html) but I kept it simple for this first large project.
 

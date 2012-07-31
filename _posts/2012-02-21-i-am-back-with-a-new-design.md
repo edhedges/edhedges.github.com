@@ -21,6 +21,7 @@ deployment a simple task thanks to [fabric][].
 Below I will show you a fab function that runs when I deploy to
 production.
 
+{% highlight py %}
     def deploy():
         """
         Deploys the django project.
@@ -37,6 +38,7 @@ production.
             with cd(env.static_dir):
                 run('rm -rf admin')
         replace_httpdconf()
+{% endhighlight %}
 
 This command I can run by typing ‘fab deploy’ makes a project directory
 and a virtual environment, then it initializes a git repo in the project

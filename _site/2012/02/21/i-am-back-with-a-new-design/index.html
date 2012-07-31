@@ -38,32 +38,34 @@
     <h2 id="post_title">Back with a new design</h2>
     <p>Tags: <a href="/tag/Python">Python</a>, <a href="/tag/Django">Django</a>, <a href="/tag/Fabric">Fabric</a></p>
     <hr />
-    <p>Well I have been hard at work in the design department because I wanted my site to be responsive and look good on any browser size. I have also been working on my custom blog admin and the thing I am most proud of is that I have built a wonderful django boilerplate.</p>
+    <div class="post_content">
+      <p>Well I have been hard at work in the design department because I wanted my site to be responsive and look good on any browser size. I have also been working on my custom blog admin and the thing I am most proud of is that I have built a wonderful django boilerplate.</p>
 
 <p>My boilerplate is on github and can be found <a href='https://github.com/edhedges/eds-djangoplate'>here</a>. I built the boilerplate because I wanted a standard setup for all my future projects. The boilerplate will not only help me speed up my development but will make integrating outside code simple as well as making deployment a simple task thanks to <a href='http://docs.fabfile.org/en/1.4.0/index.html'>fabric</a>.</p>
 
 <p>Below I will show you a fab function that runs when I deploy to production.</p>
-
-<pre><code>def deploy():
-    &quot;&quot;&quot;
-    Deploys the django project.
-    &quot;&quot;&quot;
-    run(&#39;mkproject %s&#39; % PROJECT_ID)
-    with cd(env.current_project_dir):
-        run(&#39;git init&#39;)
-        run(&#39;git pull https://edhedges@bitbucket.org/edhedges/%s.git master&#39; % PROJECT_ID)
-        run(&#39;pip-2.7 install -r conf/requirements.txt&#39;)
-        run(&#39;python2.7 manage.py new_secret&#39;)
-        run(&#39;python2.7 manage.py syncdb&#39;)
-        run(&#39;python2.7 manage.py migrate&#39;)
-        run(&#39;mv static/* %s&#39; % env.static_dir)
-        with cd(env.static_dir):
-            run(&#39;rm -rf admin&#39;)
-    replace_httpdconf()</code></pre>
-
+<div class='highlight'><pre><code class='py'>    <span class='k'>def</span> <span class='nf'>deploy</span><span class='p'>():</span>
+        <span class='sd'>&quot;&quot;&quot;</span>
+<span class='sd'>        Deploys the django project.</span>
+<span class='sd'>        &quot;&quot;&quot;</span>
+        <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;mkproject </span><span class='si'>%s</span><span class='s'>&#39;</span> <span class='o'>%</span> <span class='n'>PROJECT_ID</span><span class='p'>)</span>
+        <span class='k'>with</span> <span class='n'>cd</span><span class='p'>(</span><span class='n'>env</span><span class='o'>.</span><span class='n'>current_project_dir</span><span class='p'>):</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;git init&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;git pull https://edhedges@bitbucket.org/edhedges/</span><span class='si'>%s</span><span class='s'>.git master&#39;</span> <span class='o'>%</span> <span class='n'>PROJECT_ID</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;pip-2.7 install -r conf/requirements.txt&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;python2.7 manage.py new_secret&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;python2.7 manage.py syncdb&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;python2.7 manage.py migrate&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;mv static/* </span><span class='si'>%s</span><span class='s'>&#39;</span> <span class='o'>%</span> <span class='n'>env</span><span class='o'>.</span><span class='n'>static_dir</span><span class='p'>)</span>
+            <span class='k'>with</span> <span class='n'>cd</span><span class='p'>(</span><span class='n'>env</span><span class='o'>.</span><span class='n'>static_dir</span><span class='p'>):</span>
+                <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;rm -rf admin&#39;</span><span class='p'>)</span>
+        <span class='n'>replace_httpdconf</span><span class='p'>()</span>
+</code></pre>
+</div>
 <p>This command I can run by typing ‘fab deploy’ makes a project directory and a virtual environment, then it initializes a git repo in the project folder and pulls my project in. After that is done it install all dependencies using pip and it moves the static folder into my static url. After all that is done it replaces the default httpd.conf file with one tailored to my project and restarts apache.</p>
 
 <p>Sta tuned for more django/python awesome!</p>
+    </div>
   </div>
 </div>
       <div class="row">

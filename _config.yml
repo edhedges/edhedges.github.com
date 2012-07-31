@@ -3,8 +3,8 @@ exclude: [ Gemfile, Gemfile.lock]
 sitename: Eddie Hedges
 tagline: Eddie Hedges, Programming, Web Development, Web Design, Code, Hacker
 
-production_url: https://edhedges.github.com
-url: https://edhedges.github.com
+production_url: https://edhedges.com
+url: https://edhedges.com
 baseurl: /
 
 safe: false

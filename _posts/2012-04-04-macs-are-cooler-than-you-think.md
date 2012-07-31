@@ -21,21 +21,25 @@ The best application that I learned about was Terminal (if you have a Mac find u
 
 Examples
 
-`say Hello, World!`
+{% highlight sh %}
+say Hello, World!
 
-`say I did not know Macs were so awesome.`
+say I did not know Macs were so awesome.
 
-`say Eddie Hedges is a cool dude.`
+say Eddie Hedges is a cool dude.
+{% endhighlight %}
 
 You can do this with any string of letters and or numbers. There is also a list of different voices you can make it say. The voices can be found in System Prefrecences under System then Speech. Under the Text to Speech tab there is a System Voice drop down list which contains the voices. Here are a few examples of how to change the default voice.
 
 Examples
 
-`say -v Good This is the good news voice!`
+{% highlight sh %}
+say -v Good This is the good news voice!
 
-`say -v Agnes I am Agnes.`
+say -v Agnes I am Agnes.
 
-`say -v Cellos The weather could definitely be cooler yeah`
+say -v Cellos The weather could definitely be cooler yeah
+{% endhighlight %}
 
 While these are very simple commands there are some more complex ones that do things like allow you to play a text based game and even watch Star Wars IV right from Terminal!
 
@@ -43,13 +47,17 @@ The following command will start up a text based game so read and try typing stu
 
 Play a text based game
 
-`emacs -batch -l dunnet`
+{% highlight sh %}
+emacs -batch -l dunnet
+{% endhighlight %}
 
 The following command will start up Star Wars Episode IV in ASCII.
 
 Watch Star Wars Episode IV
 
-`telnet towel.blinkenlights.nl`
+{% highlight sh %}
+telnet towel.blinkenlights.nl
+{% endhighlight %}
 
 I realize that all of these things aren't very productive but I use terminal daily for my programming needs. I use it to SSH, scripts, starting all kinds of services, making files and folders, opening files in [Sublime Text 2](http://www.sublimetext.com/2) and git with GitHub. It helps me be productive and makes me feel like a leet haxor. Okay so now to the point of the post.
 

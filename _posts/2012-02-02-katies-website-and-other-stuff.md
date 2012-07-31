@@ -16,7 +16,7 @@ think she needed one but this year she is taking a class about using
 technology in the classroom and one of her assignment was to make a
 site. I am proud of her because to be honest she isn’t that tech savvy.
 
-##### Now on to some news about what I will be working on next.
+#### Now on to some news about what I will be working on next.
 
 I plan on making my blogging application great and here is a list of
 some of the things I want to add to it.
