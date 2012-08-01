@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eddie Hedges">
+    <meta name="description" content="Eddie Hedges is a web developer that enjoys both front and back end development. This includes markup, styling, user interface, functionality, and data store. This website will have information about programming, web development and design, python, ruby, javascript, html, css, open source, and possibly some health/nutrition information.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+      <title>Eddie Hedges - Back with a new design</title>
+    
+    <link href="http://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/edstyles.min.css">
+  </head>
+  <body>
+    <div id="forkme"><a href="https://github.com/edhedges"><img src="/img/forkme.png" alt="Fork me on GitHub"></a></div>
+      <div class="container">
+        <header>
+          <div class="eight columns">
+            <h1><a href="/">Eddie Hedges</a></h1>
+          </div>
+          <div class="eight columns">
+            <ul id="social_list">
+              <li id="githubicon"><a title="GitHub Profile" id="octoicon" href="https://github.com/edhedges"></a></li>
+              <li><a title="Reddit Profile" id="redditicon" href="http://www.reddit.com/user/EhWardo/"></a></li>
+              <li><a title="Facebook Profile" id="facebookicon" href="https://www.facebook.com/circlejerkEd"></a></li>
+              <li><a title="Twitter Profile" id="twittericon" href="https://twitter.com/#!/Dwedard"></a></li>
+              <li><a title="LinkIn Profile" id="linkedinicon" href="http://www.linkedin.com/pub/eddie-hedges/3b/167/168"></a></li>
+              <li><a title="RSS Feed" id="rssicon" href="/atom.xml"></a></li>
+            </ul>
+          </div>
+          <div class="sixteen columns">
+            <hr />
+          </div>
+        </header>
+<div class="row">
+  <div class="sixteen columns">
+    <p>Want to read more posts? Go back to the <a href="/blog/">archives</a>.</p>
+    <h2 id="post_title">Back with a new design</h2>
+    <p>Tags: <a href="/tag/Python">Python</a>, <a href="/tag/Django">Django</a>, <a href="/tag/Fabric">Fabric</a></p>
+    <hr />
+    <div class="post_content">
+      <p>Well I have been hard at work in the design department because I wanted my site to be responsive and look good on any browser size. I have also been working on my custom blog admin and the thing I am most proud of is that I have built a wonderful django boilerplate.</p>
+
+<p>My boilerplate is on github and can be found <a href='https://github.com/edhedges/eds-djangoplate'>here</a>. I built the boilerplate because I wanted a standard setup for all my future projects. The boilerplate will not only help me speed up my development but will make integrating outside code simple as well as making deployment a simple task thanks to <a href='http://docs.fabfile.org/en/1.4.0/index.html'>fabric</a>.</p>
+
+<p>Below I will show you a fab function that runs when I deploy to production.</p>
+<div class='highlight'><pre><code class='py'>    <span class='k'>def</span> <span class='nf'>deploy</span><span class='p'>():</span>
+        <span class='sd'>&quot;&quot;&quot;</span>
+<span class='sd'>        Deploys the django project.</span>
+<span class='sd'>        &quot;&quot;&quot;</span>
+        <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;mkproject </span><span class='si'>%s</span><span class='s'>&#39;</span> <span class='o'>%</span> <span class='n'>PROJECT_ID</span><span class='p'>)</span>
+        <span class='k'>with</span> <span class='n'>cd</span><span class='p'>(</span><span class='n'>env</span><span class='o'>.</span><span class='n'>current_project_dir</span><span class='p'>):</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;git init&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;git pull https://edhedges@bitbucket.org/edhedges/</span><span class='si'>%s</span><span class='s'>.git master&#39;</span> <span class='o'>%</span> <span class='n'>PROJECT_ID</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;pip-2.7 install -r conf/requirements.txt&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;python2.7 manage.py new_secret&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;python2.7 manage.py syncdb&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;python2.7 manage.py migrate&#39;</span><span class='p'>)</span>
+            <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;mv static/* </span><span class='si'>%s</span><span class='s'>&#39;</span> <span class='o'>%</span> <span class='n'>env</span><span class='o'>.</span><span class='n'>static_dir</span><span class='p'>)</span>
+            <span class='k'>with</span> <span class='n'>cd</span><span class='p'>(</span><span class='n'>env</span><span class='o'>.</span><span class='n'>static_dir</span><span class='p'>):</span>
+                <span class='n'>run</span><span class='p'>(</span><span class='s'>&#39;rm -rf admin&#39;</span><span class='p'>)</span>
+        <span class='n'>replace_httpdconf</span><span class='p'>()</span>
+</code></pre>
+</div>
+<p>This command I can run by typing ‘fab deploy’ makes a project directory and a virtual environment, then it initializes a git repo in the project folder and pulls my project in. After that is done it install all dependencies using pip and it moves the static folder into my static url. After all that is done it replaces the default httpd.conf file with one tailored to my project and restarts apache.</p>
+
+<p>Sta tuned for more django/python awesome!</p>
+    </div>
+    <hr />
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'edhedges';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+</div>
+      <div class="row">
+        <div class="sixteen columns">
+          <hr />
+          <footer>
+            <p>Built by <a href="/">Eddie Hedges</a> with help from <a href="https://github.com/mojombo/jekyll">Jekyll</a></p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/tooltips.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28147007-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

@@ -3,7 +3,7 @@
   <title>Eddie Hedges</title>
   <link href="http://edhedges.github.com" />
   <link href="http://edhedges.github.com/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2012-07-30T23:40:33-05:00</updated>
+  <updated>2012-07-31T21:02:52-05:00</updated>
   <id>http://edhedges.github.com</id>
   <author>
     <name>Eddie Hedges</name>
@@ -12,9 +12,9 @@
   
   <entry>
     <title>Jekyll (with plugins!) hosted on GitHub Pages</title>
-    <link href="http://edhedges.github.com/2012/07/30/jekyll-with-plugins-hosted-on-github-pages/"/>
+    <link href="http://edhedges.github.com/blog/2012/07/30/jekyll-with-plugins-hosted-on-github-pages"/>
     <updated>2012-07-30T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/2012/07/30/jekyll-with-plugins-hosted-on-github-pages</id>
+    <id>http://edhedges.github.com/blog/2012/07/30/jekyll-with-plugins-hosted-on-github-pages</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -86,9 +86,9 @@
   
   <entry>
     <title>Macs are cooler than you think</title>
-    <link href="http://edhedges.github.com/2012/04/04/macs-are-cooler-than-you-think/"/>
+    <link href="http://edhedges.github.com/blog/2012/04/04/macs-are-cooler-than-you-think"/>
     <updated>2012-04-04T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/2012/04/04/macs-are-cooler-than-you-think</id>
+    <id>http://edhedges.github.com/blog/2012/04/04/macs-are-cooler-than-you-think</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -148,9 +148,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Password work with Java and EzAsPy</title>
-    <link href="http://edhedges.github.com/2012/04/02/password-work-with-java-and-ezaspy/"/>
+    <link href="http://edhedges.github.com/blog/2012/04/02/password-work-with-java-and-ezaspy"/>
     <updated>2012-04-02T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/2012/04/02/password-work-with-java-and-ezaspy</id>
+    <id>http://edhedges.github.com/blog/2012/04/02/password-work-with-java-and-ezaspy</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -172,9 +172,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Updates on edjmicro work and more</title>
-    <link href="http://edhedges.github.com/2012/03/15/updates-on-edjmicro-work-and-more/"/>
+    <link href="http://edhedges.github.com/blog/2012/03/15/updates-on-edjmicro-work-and-more"/>
     <updated>2012-03-15T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/2012/03/15/updates-on-edjmicro-work-and-more</id>
+    <id>http://edhedges.github.com/blog/2012/03/15/updates-on-edjmicro-work-and-more</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -196,9 +196,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Java and Django Development</title>
-    <link href="http://edhedges.github.com/2012/03/12/java-development-and-some-django/"/>
+    <link href="http://edhedges.github.com/blog/2012/03/12/java-development-and-some-django"/>
     <updated>2012-03-12T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/2012/03/12/java-development-and-some-django</id>
+    <id>http://edhedges.github.com/blog/2012/03/12/java-development-and-some-django</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -218,9 +218,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>My setup</title>
-    <link href="http://edhedges.github.com/2012/03/05/what-is-my-setup/"/>
+    <link href="http://edhedges.github.com/blog/2012/03/05/what-is-my-setup"/>
     <updated>2012-03-05T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/03/05/what-is-my-setup</id>
+    <id>http://edhedges.github.com/blog/2012/03/05/what-is-my-setup</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -278,9 +278,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Comments are live and more stuff</title>
-    <link href="http://edhedges.github.com/2012/02/29/comments-are-live-and-more-stuff/"/>
+    <link href="http://edhedges.github.com/blog/2012/02/29/comments-are-live-and-more-stuff"/>
     <updated>2012-02-29T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/02/29/comments-are-live-and-more-stuff</id>
+    <id>http://edhedges.github.com/blog/2012/02/29/comments-are-live-and-more-stuff</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -316,9 +316,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Blog changes including comments</title>
-    <link href="http://edhedges.github.com/2012/02/27/blog-changes-with-comments/"/>
+    <link href="http://edhedges.github.com/blog/2012/02/27/blog-changes-with-comments"/>
     <updated>2012-02-27T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/02/27/blog-changes-with-comments</id>
+    <id>http://edhedges.github.com/blog/2012/02/27/blog-changes-with-comments</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -334,9 +334,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Next items on my agenda</title>
-    <link href="http://edhedges.github.com/2012/02/24/next-items-on-my-agenda/"/>
+    <link href="http://edhedges.github.com/blog/2012/02/24/next-items-on-my-agenda"/>
     <updated>2012-02-24T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/02/24/next-items-on-my-agenda</id>
+    <id>http://edhedges.github.com/blog/2012/02/24/next-items-on-my-agenda</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -348,9 +348,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Back with a new design</title>
-    <link href="http://edhedges.github.com/2012/02/21/i-am-back-with-a-new-design/"/>
+    <link href="http://edhedges.github.com/blog/2012/02/21/i-am-back-with-a-new-design"/>
     <updated>2012-02-21T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/02/21/i-am-back-with-a-new-design</id>
+    <id>http://edhedges.github.com/blog/2012/02/21/i-am-back-with-a-new-design</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -385,9 +385,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Sidetracked</title>
-    <link href="http://edhedges.github.com/2012/02/11/sidetracked/"/>
+    <link href="http://edhedges.github.com/blog/2012/02/11/sidetracked"/>
     <updated>2012-02-11T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/02/11/sidetracked</id>
+    <id>http://edhedges.github.com/blog/2012/02/11/sidetracked</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -401,9 +401,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>New job and other updates</title>
-    <link href="http://edhedges.github.com/2012/02/08/new-job-and-other-updates/"/>
+    <link href="http://edhedges.github.com/blog/2012/02/08/new-job-and-other-updates"/>
     <updated>2012-02-08T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/02/08/new-job-and-other-updates</id>
+    <id>http://edhedges.github.com/blog/2012/02/08/new-job-and-other-updates</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -417,9 +417,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Katie's website and other stuff</title>
-    <link href="http://edhedges.github.com/2012/02/02/katies-website-and-other-stuff/"/>
+    <link href="http://edhedges.github.com/blog/2012/02/02/katies-website-and-other-stuff"/>
     <updated>2012-02-02T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/02/02/katies-website-and-other-stuff</id>
+    <id>http://edhedges.github.com/blog/2012/02/02/katies-website-and-other-stuff</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -449,9 +449,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Django from development to production</title>
-    <link href="http://edhedges.github.com/2012/02/01/django-from-development-to-production/"/>
+    <link href="http://edhedges.github.com/blog/2012/02/01/django-from-development-to-production"/>
     <updated>2012-02-01T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/02/01/django-from-development-to-production</id>
+    <id>http://edhedges.github.com/blog/2012/02/01/django-from-development-to-production</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
@@ -483,9 +483,9 @@ say -v Cellos The weather could definitely be cooler yeah
   
   <entry>
     <title>Welcome to edBlog!</title>
-    <link href="http://edhedges.github.com/2012/01/31/welcome-to-edblog/"/>
+    <link href="http://edhedges.github.com/blog/2012/01/31/welcome-to-edblog"/>
     <updated>2012-01-31T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/2012/01/31/welcome-to-edblog</id>
+    <id>http://edhedges.github.com/blog/2012/01/31/welcome-to-edblog</id>
     <author>
       <name>Eddie Hedges</name>
       <uri>http://edhedges.github.com</uri>
