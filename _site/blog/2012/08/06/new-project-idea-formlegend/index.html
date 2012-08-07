@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eddie Hedges">
+    <meta name="description" content="Eddie Hedges is a web developer that enjoys both front and back end development. This includes markup, styling, user interface, functionality, and data store. This website will have information about programming, web development and design, python, ruby, javascript, html, css, open source, and possibly some health/nutrition information.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+      <title>Eddie Hedges - New project idea "FormLegend"</title>
+    
+    <link href="http://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/edstyles.min.css">
+  </head>
+  <body>
+    <div id="forkme"><a href="https://github.com/edhedges"><img src="/img/forkme.png" alt="Fork me on GitHub"></a></div>
+      <div class="container">
+        <header>
+          <div class="eight columns">
+            <h1><a href="/">Eddie Hedges</a></h1>
+          </div>
+          <div class="eight columns">
+            <ul id="social_list">
+              <li id="githubicon"><a title="GitHub Profile" id="octoicon" href="https://github.com/edhedges"></a></li>
+              <li><a title="Reddit Profile" id="redditicon" href="http://www.reddit.com/user/EhWardo/"></a></li>
+              <li><a title="Facebook Profile" id="facebookicon" href="https://www.facebook.com/circlejerkEd"></a></li>
+              <li><a title="Twitter Profile" id="twittericon" href="https://twitter.com/#!/Dwedard"></a></li>
+              <li><a title="LinkIn Profile" id="linkedinicon" href="http://www.linkedin.com/pub/eddie-hedges/3b/167/168"></a></li>
+              <li><a title="RSS Feed" id="rssicon" href="/atom.xml"></a></li>
+            </ul>
+          </div>
+          <div class="sixteen columns">
+            <hr />
+          </div>
+        </header>
+<div class="row">
+  <div class="sixteen columns">
+    <p>Want to read more posts? Go back to the <a href="/blog/">archives</a>.</p>
+    <h2 id="post_title">New project idea "FormLegend"</h2>
+    <p>Tags: <a href="/tag/FormLegend">FormLegend</a>, <a href="/tag/TechStack">TechStack</a>, <a href="/tag/Python">Python</a>, <a href="/tag/Ruby">Ruby</a>, <a href="/tag/easyXDM">easyXDM</a>, <a href="/tag/porthole">porthole</a>, <a href="/tag/PostgreSQL">PostgreSQL</a>, <a href="/tag/MySQL">MySQL</a>, <a href="/tag/Redis">Redis</a>, <a href="/tag/Memcached">Memcached</a></p>
+    <hr />
+    <div class="post_content">
+      <h4 id='introduction_to_formlegend'>Introduction to FormLegend</h4>
+
+<p>I recently started using <a href='http://disqus.com/'>disqus</a> to power the comments on my <a href='http://jekyllrb.com/'>jekyll</a> powered static website. This got me thinking &#8220;What else could a static website need besides a blog and comments?&#8221;. So I compared the features I had on my Django powered site and the only difference is that I had a Contact Form. That is when I came up with the idea for FormLegend.</p>
+
+<p>There is a project similar to what I will be working on called <a href='http://getsimpleform.com/'>simpleform</a>, but I would like FormLegend to be easier to use, more customizable (validation especially), secure, and highly scalable. I am doing this as a way to learn a lot while also providing a useful web service for anyone and everyone for free!</p>
+
+<h4 id='technology_stack'>Technology Stack</h4>
+
+<p>I plan to use many open source technologies to make FormLegend. I haven&#8217;t completely decided which ones, but I have some options before me.</p>
+
+<p>FormLegend will work in one of two different ways. The first way is how disqus does things which is using cross-domain JavaScript communication and the other way is to use an api token or handle everything on the server side the way simpleform does things. I really like the way that disqus does things and am leaning in that direction.</p>
+
+<p>Below are the open source libraries I am looking at.</p>
+
+<h4 id='front_end_application_components'>Front End Application Components</h4>
+
+<ul>
+<li><a href='http://haml.info/'>Haml</a> or <a href='http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html'>ERB</a> Templating compiling to HTML5</li>
+
+<li><a href='http://sass-lang.com/'>Sass</a> compiling to CSS3</li>
+
+<li><a href='http://coffeescript.org/'>Coffeescript</a> (maybe) compiling to JavaScript or normal JavaScript</li>
+</ul>
+
+<p>If I do go with cross-domain JavaScript communication I will use one of two libraries:</p>
+
+<ul>
+<li><a href='https://github.com/oyvindkinsey/easyXDM'>easyXDM</a> - Disqus uses this one.</li>
+
+<li>or</li>
+
+<li><a href='https://github.com/ternarylabs/porthole'>porthole</a></li>
+</ul>
+
+<h4 id='back_end_application_components'>Back End Application Components</h4>
+
+<ul>
+<li><a href='http://www.python.org/'>Python</a> along with a web framework and other libraries.</li>
+
+<li>or</li>
+
+<li><a href='http://www.ruby-lang.org/en/'>Ruby</a> along with a web framework and other libraries.</li>
+</ul>
+
+<h4 id='sql_databases'>SQL Databases</h4>
+
+<ul>
+<li><a href='http://www.postgresql.org/'>PostgreSQL</a></li>
+
+<li>or</li>
+
+<li><a href='http://www.mysql.com/'>MySQL</a></li>
+</ul>
+
+<h4 id='key_value_storage_for_caching'>Key Value Storage for Caching</h4>
+
+<ul>
+<li><a href='http://redis.io/'>Redis</a></li>
+
+<li>or</li>
+
+<li><a href='http://memcached.org/'>Memcached</a></li>
+
+<li>Possibly both?</li>
+</ul>
+
+<p>I have never used any of these components before so I don&#8217;t really know what to expect. I plan on doing quite a bit of research to allow for FormLegend to be highly scalable.</p>
+    </div>
+    <hr />
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'edhedges';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+</div>
+      <div class="row">
+        <div class="sixteen columns">
+          <hr />
+          <footer>
+            <p>Built by <a href="/">Eddie Hedges</a></p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/tooltips.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28147007-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

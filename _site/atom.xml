@@ -3,12 +3,90 @@
   <title>Eddie Hedges</title>
   <link href="http://edhedges.github.com" />
   <link href="http://edhedges.github.com/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2012-07-31T22:31:41-05:00</updated>
+  <updated>2012-08-06T19:15:54-05:00</updated>
   <id>http://edhedges.github.com</id>
   <author>
     <name>Eddie Hedges</name>
     <email>eddiehedges@gmail.com</email>
   </author>
+  
+  <entry>
+    <title>New project idea "FormLegend"</title>
+    <link href="http://edhedges.github.com/blog/2012/08/06/new-project-idea-formlegend"/>
+    <updated>2012-08-06T00:00:00-05:00</updated>
+    <id>http://edhedges.github.com/blog/2012/08/06/new-project-idea-formlegend</id>
+    <author>
+      <name>Eddie Hedges</name>
+      <uri>http://edhedges.github.com</uri>
+    </author>
+    <content type="html">&lt;h4 id='introduction_to_formlegend'&gt;Introduction to FormLegend&lt;/h4&gt;
+
+&lt;p&gt;I recently started using &lt;a href='http://disqus.com/'&gt;disqus&lt;/a&gt; to power the comments on my &lt;a href='http://jekyllrb.com/'&gt;jekyll&lt;/a&gt; powered static website. This got me thinking &amp;#8220;What else could a static website need besides a blog and comments?&amp;#8221;. So I compared the features I had on my Django powered site and the only difference is that I had a Contact Form. That is when I came up with the idea for FormLegend.&lt;/p&gt;
+
+&lt;p&gt;There is a project similar to what I will be working on called &lt;a href='http://getsimpleform.com/'&gt;simpleform&lt;/a&gt;, but I would like FormLegend to be easier to use, more customizable (validation especially), secure, and highly scalable. I am doing this as a way to learn a lot while also providing a useful web service for anyone and everyone for free!&lt;/p&gt;
+
+&lt;h4 id='technology_stack'&gt;Technology Stack&lt;/h4&gt;
+
+&lt;p&gt;I plan to use many open source technologies to make FormLegend. I haven&amp;#8217;t completely decided which ones, but I have some options before me.&lt;/p&gt;
+
+&lt;p&gt;FormLegend will work in one of two different ways. The first way is how disqus does things which is using cross-domain JavaScript communication and the other way is to use an api token or handle everything on the server side the way simpleform does things. I really like the way that disqus does things and am leaning in that direction.&lt;/p&gt;
+
+&lt;p&gt;Below are the open source libraries I am looking at.&lt;/p&gt;
+
+&lt;h4 id='front_end_application_components'&gt;Front End Application Components&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://haml.info/'&gt;Haml&lt;/a&gt; or &lt;a href='http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html'&gt;ERB&lt;/a&gt; Templating compiling to HTML5&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://sass-lang.com/'&gt;Sass&lt;/a&gt; compiling to CSS3&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://coffeescript.org/'&gt;Coffeescript&lt;/a&gt; (maybe) compiling to JavaScript or normal JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If I do go with cross-domain JavaScript communication I will use one of two libraries:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='https://github.com/oyvindkinsey/easyXDM'&gt;easyXDM&lt;/a&gt; - Disqus uses this one.&lt;/li&gt;
+
+&lt;li&gt;or&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://github.com/ternarylabs/porthole'&gt;porthole&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id='back_end_application_components'&gt;Back End Application Components&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.python.org/'&gt;Python&lt;/a&gt; along with a web framework and other libraries.&lt;/li&gt;
+
+&lt;li&gt;or&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.ruby-lang.org/en/'&gt;Ruby&lt;/a&gt; along with a web framework and other libraries.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id='sql_databases'&gt;SQL Databases&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.postgresql.org/'&gt;PostgreSQL&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;or&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.mysql.com/'&gt;MySQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id='key_value_storage_for_caching'&gt;Key Value Storage for Caching&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://redis.io/'&gt;Redis&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;or&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://memcached.org/'&gt;Memcached&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Possibly both?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have never used any of these components before so I don&amp;#8217;t really know what to expect. I plan on doing quite a bit of research to allow for FormLegend to be highly scalable.&lt;/p&gt;</content>
+  </entry>
   
   <entry>
     <title>Jekyll (with plugins!) hosted on GitHub Pages</title>
