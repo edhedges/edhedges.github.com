@@ -917,6 +917,9 @@ code{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
+
+.normalUl { margin-left: 25px; list-style: disc; }
+
 /* Pygmentize generated css */
 
 .hll { background-color: #ffffcc }
