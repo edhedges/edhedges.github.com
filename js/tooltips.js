@@ -2,14 +2,8 @@ $(document).ready(function() {
   if($(window).width() > 767){
     var tipTitle = "";
     var liveTip = $("<div id='current_tooltip'></div>").hide().appendTo("body");
-    var lists = "";
-    if($("#arsenal_list").length){
-      lists = "#social_list, #arsenal_list";
-    }
-    else{
-      lists = "#social_list";
-    }
-    $(lists).bind("mouseover mouseout mousemove", function(event) {
+
+    $('#social_list').bind("mouseover mouseout mousemove", function(event) {
       var close_link = $(event.target).closest('a');
       if (!close_link.length) { return; }
       var hovered_link = close_link[0];

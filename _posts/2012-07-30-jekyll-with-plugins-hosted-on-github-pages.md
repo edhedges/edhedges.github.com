@@ -30,7 +30,7 @@ Lastly on a more technical note if you would like to do what I have done and use
 #### Problem solved! ####
 These commands assume that you have a master branch and a development branch named them whatever you want. Mine are named master and dev.
 
-This command will create a commit object of the development branches generated `_site` directory and then ouputs the commits ID. We will need the ID for later so make sure that we are able to copy and paste it or at least view it.
+This command creates a commit object of the development branches generated `_site` directory and then outputs the commits ID. We will need the ID for later so make sure that we are able to copy and paste it or at least view it.
 
 {% highlight sh %}
 echo 'description of what we are doing' | git commit-tree dev^{tree}:_site
