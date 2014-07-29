@@ -14,7 +14,7 @@ tags:
 
 #### TLDR ####
 
-This post is pretty long and if you don't care about my story (I don't blame you I'm a terrible writer), but want some resources to improve your overall health and fitness, go [here](#final_thoughts).
+This post is pretty long and if you don't care about my story (I don't blame you I'm a terrible writer), but want some resources to improve your overall health and fitness, go [here](#final-thoughts).
 
 #### Why would I change? ####
 

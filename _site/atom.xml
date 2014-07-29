@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Eddie Hedges</title>
-  <link href="http://edhedges.github.com" />
-  <link href="http://edhedges.github.com/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2013-04-03T22:20:20-05:00</updated>
-  <id>http://edhedges.github.com</id>
+  <link href="http://edhedges.github.io" />
+  <link href="http://edhedges.github.io/atom.xml" rel="self" type="application/atom+xml" />
+  <updated>2014-07-28T23:20:49-05:00</updated>
+  <id>http://edhedges.github.io</id>
   <author>
     <name>Eddie Hedges</name>
     <email>eddiehedges@gmail.com</email>
@@ -12,188 +12,167 @@
   
   <entry>
     <title>Life improvements!</title>
-    <link href="http://edhedges.github.com/blog/2013/01/20/life-improvements"/>
+    <link href="http://edhedges.github.io/blog/2013/01/20/life-improvements"/>
     <updated>2013-01-20T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2013/01/20/life-improvements</id>
+    <id>http://edhedges.github.io/blog/2013/01/20/life-improvements</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;h4 id='tldr'&gt;TLDR&lt;/h4&gt;
+    <content type="html">&lt;h4 id=&quot;tldr&quot;&gt;TLDR&lt;/h4&gt;
 
-&lt;p&gt;This post is pretty long and if you don&amp;#8217;t care about my story (I don&amp;#8217;t blame you I&amp;#8217;m a terrible writer), but want some resources to improve your overall health and fitness, go &lt;a href='#final_thoughts'&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This post is pretty long and if you don’t care about my story (I don’t blame you I’m a terrible writer), but want some resources to improve your overall health and fitness, go &lt;a href=&quot;#final-thoughts&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id='why_would_i_change'&gt;Why would I change?&lt;/h4&gt;
+&lt;h4 id=&quot;why-would-i-change&quot;&gt;Why would I change?&lt;/h4&gt;
 
-&lt;p&gt;In high school I competed in sports, music, and academics. I held myself to a pretty high standard and admittedly was very cocky and thought I was God&amp;#8217;s gift to this world. I was in decent shape and had a pretty good diet, but I ate what I can only guess to be a metric ton of calories. When I moved out on my own my diet became that of a poor college student and my exercise consisted of occassionally playing basketball and ping pong. This led to weight gain, confidence loss, and a decrease in overall health. I continued on this path until I got with my now fiancé Katie. My confidence skyrocketed, but I continued to gain weight and my health decreased because I was in love and Katie is a phenomenal cook. Katie made and continues to make me the happiest I&amp;#8217;ve ever been (I can&amp;#8217;t wait to marry her in May)! This was actually detrimental to me and I noticed that my health and fitness were speeding downhill. Life went on and I had gained around 50 pounds. I was now sitting at a very fat 245ish pounds. In the summer of 2012, I decided it was time to stop hating myself and start changing.&lt;/p&gt;
+&lt;p&gt;In high school I competed in sports, music, and academics. I held myself to a pretty high standard and admittedly was very cocky and thought I was God’s gift to this world. I was in decent shape and had a pretty good diet, but I ate what I can only guess to be a metric ton of calories. When I moved out on my own my diet became that of a poor college student and my exercise consisted of occassionally playing basketball and ping pong. This led to weight gain, confidence loss, and a decrease in overall health. I continued on this path until I got with my now fiancé Katie. My confidence skyrocketed, but I continued to gain weight and my health decreased because I was in love and Katie is a phenomenal cook. Katie made and continues to make me the happiest I’ve ever been (I can’t wait to marry her in May)! This was actually detrimental to me and I noticed that my health and fitness were speeding downhill. Life went on and I had gained around 50 pounds. I was now sitting at a very fat 245ish pounds. In the summer of 2012, I decided it was time to stop hating myself and start changing.&lt;/p&gt;
 
-&lt;h4 id='improvement_is_impossible_without_change'&gt;Improvement is impossible without change&lt;/h4&gt;
+&lt;h4 id=&quot;improvement-is-impossible-without-change&quot;&gt;Improvement is impossible without change&lt;/h4&gt;
 
-&lt;p&gt;At first I didnt really know what I was doing so I was pretty unsuccessful, but I was determined to lose some weight. I started slowly by going on walks, jogs, and sometimes to the busy rec center at K-State. My lack of success was mainly because I wasn&amp;#8217;t aware of some essential information about weight loss/gain. The only thing that matters for gaining or losing weight is calories in vs. calories out. This means that in order for me to lose weight, I needed to eat fewer calories than I was burning. This concept is so simple, but it is hard to execute because food is delicious and tempting. After learning this I ate much less and continued to move around more and saw a lot of progress on the scale. In a little under 2 months I had lost a around 25 pounds, felt healthier, and was ready for more. The summer of 2012 was one of the best times of my life because I had made a change for the better and learned a lot, but I was still so far away from what I am today. Looking back on it all I probably lost my weight too quickly due to a caloric deficit that was too large, but I didn&amp;#8217;t care because I was making progress!&lt;/p&gt;
+&lt;p&gt;At first I didnt really know what I was doing so I was pretty unsuccessful, but I was determined to lose some weight. I started slowly by going on walks, jogs, and sometimes to the busy rec center at K-State. My lack of success was mainly because I wasn’t aware of some essential information about weight loss/gain. The only thing that matters for gaining or losing weight is calories in vs. calories out. This means that in order for me to lose weight, I needed to eat fewer calories than I was burning. This concept is so simple, but it is hard to execute because food is delicious and tempting. After learning this I ate much less and continued to move around more and saw a lot of progress on the scale. In a little under 2 months I had lost a around 25 pounds, felt healthier, and was ready for more. The summer of 2012 was one of the best times of my life because I had made a change for the better and learned a lot, but I was still so far away from what I am today. Looking back on it all I probably lost my weight too quickly due to a caloric deficit that was too large, but I didn’t care because I was making progress!&lt;/p&gt;
 
-&lt;h4 id='continued_change_and_improvement_through_knowledge'&gt;Continued change and improvement through knowledge&lt;/h4&gt;
+&lt;h4 id=&quot;continued-change-and-improvement-through-knowledge&quot;&gt;Continued change and improvement through knowledge&lt;/h4&gt;
 
-&lt;p&gt;I was making great progress, so why would I change what I was doing? The simple answer is because of some new knowledge I had gained. Up until right before the start of my last semester of school in August, I was strictly eating less and moving more in the form of cardio outside or on an elliptical. I started doing cardio because that is what people say you are supposed to do in order to lose weight. I hate cardio. I knew that this new health and fitness me wasn&amp;#8217;t just a fad. I had made a true lifestyle change, so I started doing some research about what else I could do to boost my weight loss. Through my research I learned healthy levels of caloric deficits and surpluses, optimal exercise, healthier foods to eat, and most importantly why only doing cardio isn&amp;#8217;t the best thing I can do for my overall health and fitness. I soon started lifting weights, using machines and continued to do cardio as well. I was happy with my routine and diet and continued to do it until a couple weeks after school was back in to session.&lt;/p&gt;
+&lt;p&gt;I was making great progress, so why would I change what I was doing? The simple answer is because of some new knowledge I had gained. Up until right before the start of my last semester of school in August, I was strictly eating less and moving more in the form of cardio outside or on an elliptical. I started doing cardio because that is what people say you are supposed to do in order to lose weight. I hate cardio. I knew that this new health and fitness me wasn’t just a fad. I had made a true lifestyle change, so I started doing some research about what else I could do to boost my weight loss. Through my research I learned healthy levels of caloric deficits and surpluses, optimal exercise, healthier foods to eat, and most importantly why only doing cardio isn’t the best thing I can do for my overall health and fitness. I soon started lifting weights, using machines and continued to do cardio as well. I was happy with my routine and diet and continued to do it until a couple weeks after school was back in to session.&lt;/p&gt;
 
-&lt;h4 id='simplicity_isnt_a_bad_thing'&gt;Simplicity isn&amp;#8217;t a bad thing&lt;/h4&gt;
+&lt;h4 id=&quot;simplicity-isnt-a-bad-thing&quot;&gt;Simplicity isn’t a bad thing&lt;/h4&gt;
 
-&lt;p&gt;Once school was in session, all the college students were back. That meant that the rec was now packed at all times. I disliked this because I felt &amp;#8220;watched&amp;#8221; even though I doubt anybody cared. Sharing machines takes time, and other peoples&amp;#8217; sweat isn&amp;#8217;t awesome. I decided I would stop going to the rec all together and go simple. I started doing a body weight program along with cardio outside on linear trail. I soon hit the 35 pounds down mark and was loving this simple routine. The lack of complexity and time was perfect for me because I wasn&amp;#8217;t working full time anymore, but was actually busier seeing as it was my final semester at K-State.&lt;/p&gt;
+&lt;p&gt;Once school was in session, all the college students were back. That meant that the rec was now packed at all times. I disliked this because I felt “watched” even though I doubt anybody cared. Sharing machines takes time, and other peoples’ sweat isn’t awesome. I decided I would stop going to the rec all together and go simple. I started doing a body weight program along with cardio outside on linear trail. I soon hit the 35 pounds down mark and was loving this simple routine. The lack of complexity and time was perfect for me because I wasn’t working full time anymore, but was actually busier seeing as it was my final semester at K-State.&lt;/p&gt;
 
-&lt;h4 id='different_can_mean_better'&gt;Different can mean better&lt;/h4&gt;
+&lt;h4 id=&quot;different-can-mean-better&quot;&gt;Different can mean better&lt;/h4&gt;
 
-&lt;p&gt;I continued doing my bodyweight routine as well as running outside until the weather got too cold for my liking. By the time I graduated I had lost around 50 pounds. My lowest weight has been 194 pounds. I felt stronger, quicker, and in overall better health. During the semester I started to miss weight lifting so I told myself that after graduation I would buy myself a home gym so I could get back into the weight room. I graduated from K-State on December 8th with a cumulative GPA of 3.256 and finished the semester with the highest GPA of my K-State career at 3.667. Soon after graduating I purchased 255 pounds of weight plates, a 7 foot 45 pound olympic bar, an adjustable bench, and a power rack off of &lt;a href='http://www.amazon.com/'&gt;Amazon&lt;/a&gt; from &lt;a href='http://www.bodysolid.com/'&gt;Body Solid&lt;/a&gt;. I also bought two stall mats for flooring from &lt;a href='http://www.tractorsupply.com/'&gt;Tractor Supply&lt;/a&gt; in Manhattan. I am completely satisfied with my investment in a homegym and wouldn&amp;#8217;t do anything differently.&lt;/p&gt;
+&lt;p&gt;I continued doing my bodyweight routine as well as running outside until the weather got too cold for my liking. By the time I graduated I had lost around 50 pounds. My lowest weight has been 194 pounds. I felt stronger, quicker, and in overall better health. During the semester I started to miss weight lifting so I told myself that after graduation I would buy myself a home gym so I could get back into the weight room. I graduated from K-State on December 8th with a cumulative GPA of 3.256 and finished the semester with the highest GPA of my K-State career at 3.667. Soon after graduating I purchased 255 pounds of weight plates, a 7 foot 45 pound olympic bar, an adjustable bench, and a power rack off of &lt;a href=&quot;http://www.amazon.com/&quot;&gt;Amazon&lt;/a&gt; from &lt;a href=&quot;http://www.bodysolid.com/&quot;&gt;Body Solid&lt;/a&gt;. I also bought two stall mats for flooring from &lt;a href=&quot;http://www.tractorsupply.com/&quot;&gt;Tractor Supply&lt;/a&gt; in Manhattan. I am completely satisfied with my investment in a homegym and wouldn’t do anything differently.&lt;/p&gt;
 
 &lt;p&gt;Here are a couple of pictures of my equipment:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://i.imgur.com/knITY4y.jpg'&gt;Bar and plates&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://i.imgur.com/0V7LW2W.jpg?1'&gt;Rack, bench, and stall mats&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://i.imgur.com/knITY4y.jpg&quot;&gt;Bar and plates&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://i.imgur.com/0V7LW2W.jpg?1&quot;&gt;Rack, bench, and stall mats&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='final_thoughts'&gt;Final thoughts&lt;/h4&gt;
+&lt;h4 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h4&gt;
 
-&lt;p&gt;The most important thing a lot people don&amp;#8217;t realize is that health and fitness are not achieved by a quick or temporary fix. It takes hard work and discipline, but I believe anyone can lose/gain weight and improve themselves if they truly want to. Succeeding in health and fitness is a lifestyle and mindset change that should last as long as one lives.&lt;/p&gt;
+&lt;p&gt;The most important thing a lot people don’t realize is that health and fitness are not achieved by a quick or temporary fix. It takes hard work and discipline, but I believe anyone can lose/gain weight and improve themselves if they truly want to. Succeeding in health and fitness is a lifestyle and mindset change that should last as long as one lives.&lt;/p&gt;
 
 &lt;p&gt;If anyone is interested in becoming healthier and/or more fit, please check out the following resources that have been a huge help to me:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://liamrosen.com/fitness.html'&gt;Beginner&amp;#8217;s Health and Fitness Guide&lt;/a&gt; - This read is all one needs to live a healthy and fit life.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.reddit.com/r/Fitness/wiki/faq'&gt;The fitness subreddits (/r/fitness) FAQ&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.exrx.net/'&gt;Exercise Prescription&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://examine.com/'&gt;Examine.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://liamrosen.com/fitness.html&quot;&gt;Beginner’s Health and Fitness Guide&lt;/a&gt; - This read is all one needs to live a healthy and fit life.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.reddit.com/r/Fitness/wiki/faq&quot;&gt;The fitness subreddits (/r/fitness) FAQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.exrx.net/&quot;&gt;Exercise Prescription&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://examine.com/&quot;&gt;Examine.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;As I have stated before, the only way to gain weight is to eat more calories than you burn and the only way to lose weight is to eat less calories than you burn. That being said, I have recently started following a way of eating called Intermittent Fasting or IF. Here are some resources about IF and a stricter variation of IF called Lean Gains:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://www.theiflife.com/advantages-intermittent-fasting-feeding/'&gt;Great read about IF&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://examine.com/leangains-faq/'&gt;Lean Gains FAQ&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.leangains.com/2010/04/leangains-guide.html'&gt;Lean Gains Guide&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.1percentedge.com/ifcalc/'&gt;Lean Gains Calculator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.theiflife.com/advantages-intermittent-fasting-feeding/&quot;&gt;Great read about IF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://examine.com/leangains-faq/&quot;&gt;Lean Gains FAQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.leangains.com/2010/04/leangains-guide.html&quot;&gt;Lean Gains Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.1percentedge.com/ifcalc/&quot;&gt;Lean Gains Calculator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My weight lifting program is a slight variation/combination of three popular linear progression programs:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://strengthvillain.com/forum/viewtopic.php?f=9&amp;amp;t=89'&gt;Greyskull LP&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://stronglifts.com/stronglifts-5x5-beginner-strength-training-program/'&gt;StrongLifts&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://startingstrength.wikia.com/wiki/FAQ:The_Program#Three_Flavors_of_Starting_Strength'&gt;Starting Strength&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://strengthvillain.com/forum/viewtopic.php?f=9&amp;amp;t=89&quot;&gt;Greyskull LP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stronglifts.com/stronglifts-5x5-beginner-strength-training-program/&quot;&gt;StrongLifts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://startingstrength.wikia.com/wiki/FAQ:The_Program#Three_Flavors_of_Starting_Strength&quot;&gt;Starting Strength&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to weigh around 180 pounds and be around 15% body fat while increasing my levels of strength, endurance, speed, and explosiveness. I am well on my way and will see my goals met.&lt;/p&gt;
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>New project idea "FormLegend"</title>
-    <link href="http://edhedges.github.com/blog/2012/08/06/new-project-idea-formlegend"/>
+    <link href="http://edhedges.github.io/blog/2012/08/06/new-project-idea-formlegend"/>
     <updated>2012-08-06T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/blog/2012/08/06/new-project-idea-formlegend</id>
+    <id>http://edhedges.github.io/blog/2012/08/06/new-project-idea-formlegend</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;h4 id='introduction_to_formlegend'&gt;Introduction to FormLegend&lt;/h4&gt;
+    <content type="html">&lt;h4 id=&quot;introduction-to-formlegend&quot;&gt;Introduction to FormLegend&lt;/h4&gt;
 
-&lt;p&gt;I recently started using &lt;a href='http://disqus.com/'&gt;disqus&lt;/a&gt; to power the comments on my &lt;a href='http://jekyllrb.com/'&gt;jekyll&lt;/a&gt; powered static website. This got me thinking &amp;#8220;What else could a static website need besides a blog and comments?&amp;#8221;. So I compared the features I had on my Django powered site and the only difference is that I had a Contact Form. That is when I came up with the idea for FormLegend.&lt;/p&gt;
+&lt;p&gt;I recently started using &lt;a href=&quot;http://disqus.com/&quot;&gt;disqus&lt;/a&gt; to power the comments on my &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt; powered static website. This got me thinking “What else could a static website need besides a blog and comments?”. So I compared the features I had on my Django powered site and the only difference is that I had a Contact Form. That is when I came up with the idea for FormLegend.&lt;/p&gt;
 
-&lt;p&gt;There is a project similar to what I will be working on called &lt;a href='http://getsimpleform.com/'&gt;simpleform&lt;/a&gt;, but I would like FormLegend to be easier to use, more customizable (validation especially), secure, and highly scalable. I am doing this as a way to learn a lot while also providing a useful web service for anyone and everyone for free!&lt;/p&gt;
+&lt;p&gt;There is a project similar to what I will be working on called &lt;a href=&quot;http://getsimpleform.com/&quot;&gt;simpleform&lt;/a&gt;, but I would like FormLegend to be easier to use, more customizable (validation especially), secure, and highly scalable. I am doing this as a way to learn a lot while also providing a useful web service for anyone and everyone for free!&lt;/p&gt;
 
-&lt;h4 id='technology_stack'&gt;Technology Stack&lt;/h4&gt;
+&lt;h4 id=&quot;technology-stack&quot;&gt;Technology Stack&lt;/h4&gt;
 
-&lt;p&gt;I plan to use many open source technologies to make FormLegend. I haven&amp;#8217;t completely decided which ones, but I have some options before me.&lt;/p&gt;
+&lt;p&gt;I plan to use many open source technologies to make FormLegend. I haven’t completely decided which ones, but I have some options before me.&lt;/p&gt;
 
 &lt;p&gt;FormLegend will work in one of two different ways. The first way is how disqus does things which is using cross-domain JavaScript communication and the other way is to use an api token or handle everything on the server side the way simpleform does things. I really like the way that disqus does things and am leaning in that direction.&lt;/p&gt;
 
 &lt;p&gt;Below are the open source libraries I am looking at.&lt;/p&gt;
 
-&lt;h4 id='front_end_application_components'&gt;Front End Application Components&lt;/h4&gt;
+&lt;h4 id=&quot;front-end-application-components&quot;&gt;Front End Application Components&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://haml.info/'&gt;Haml&lt;/a&gt; or &lt;a href='http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html'&gt;ERB&lt;/a&gt; Templating compiling to HTML5&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://sass-lang.com/'&gt;Sass&lt;/a&gt; compiling to CSS3&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://coffeescript.org/'&gt;Coffeescript&lt;/a&gt; (maybe) compiling to JavaScript or normal JavaScript&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://haml.info/&quot;&gt;Haml&lt;/a&gt; or &lt;a href=&quot;http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html&quot;&gt;ERB&lt;/a&gt; Templating compiling to HTML5&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/&quot;&gt;Sass&lt;/a&gt; compiling to CSS3&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://coffeescript.org/&quot;&gt;Coffeescript&lt;/a&gt; (maybe) compiling to JavaScript or normal JavaScript&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If I do go with cross-domain JavaScript communication I will use one of two libraries:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='https://github.com/oyvindkinsey/easyXDM'&gt;easyXDM&lt;/a&gt; - Disqus uses this one.&lt;/li&gt;
-
-&lt;li&gt;or&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='https://github.com/ternarylabs/porthole'&gt;porthole&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/oyvindkinsey/easyXDM&quot;&gt;easyXDM&lt;/a&gt; - Disqus uses this one.&lt;/li&gt;
+  &lt;li&gt;or&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ternarylabs/porthole&quot;&gt;porthole&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='back_end_application_components'&gt;Back End Application Components&lt;/h4&gt;
+&lt;h4 id=&quot;back-end-application-components&quot;&gt;Back End Application Components&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://www.python.org/'&gt;Python&lt;/a&gt; along with a web framework and other libraries.&lt;/li&gt;
-
-&lt;li&gt;or&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.ruby-lang.org/en/'&gt;Ruby&lt;/a&gt; along with a web framework and other libraries.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt; along with a web framework and other libraries.&lt;/li&gt;
+  &lt;li&gt;or&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; along with a web framework and other libraries.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='sql_databases'&gt;SQL Databases&lt;/h4&gt;
+&lt;h4 id=&quot;sql-databases&quot;&gt;SQL Databases&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://www.postgresql.org/'&gt;PostgreSQL&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;or&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.mysql.com/'&gt;MySQL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.postgresql.org/&quot;&gt;PostgreSQL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;or&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mysql.com/&quot;&gt;MySQL&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='key_value_storage_for_caching'&gt;Key Value Storage for Caching&lt;/h4&gt;
+&lt;h4 id=&quot;key-value-storage-for-caching&quot;&gt;Key Value Storage for Caching&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://redis.io/'&gt;Redis&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;or&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://memcached.org/'&gt;Memcached&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;Possibly both?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://redis.io/&quot;&gt;Redis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;or&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://memcached.org/&quot;&gt;Memcached&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Possibly both?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I have never used any of these components before so I don&amp;#8217;t really know what to expect. I plan on doing quite a bit of research to allow for FormLegend to be highly scalable.&lt;/p&gt;</content>
+&lt;p&gt;I have never used any of these components before so I don’t really know what to expect. I plan on doing quite a bit of research to allow for FormLegend to be highly scalable.&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Jekyll (with plugins!) hosted on GitHub Pages</title>
-    <link href="http://edhedges.github.com/blog/2012/07/30/jekyll-with-plugins-hosted-on-github-pages"/>
+    <link href="http://edhedges.github.io/blog/2012/07/30/jekyll-with-plugins-hosted-on-github-pages"/>
     <updated>2012-07-30T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/blog/2012/07/30/jekyll-with-plugins-hosted-on-github-pages</id>
+    <id>http://edhedges.github.io/blog/2012/07/30/jekyll-with-plugins-hosted-on-github-pages</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;h4 id='a_little_background'&gt;A little background&lt;/h4&gt;
+    <content type="html">&lt;h4 id=&quot;a-little-background&quot;&gt;A little background&lt;/h4&gt;
+&lt;p&gt;A while back I was bored and burned out on a programming project I had started, so I spun up a new design for my website. I also wanted to start using a static website generator and ended up choosing &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. I chose Jekyll so I could host it for free with &lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; as well as learn a little bit of &lt;a href=&quot;http://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; and &lt;a href=&quot;https://github.com/Shopify/liquid&quot;&gt;Liquid&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;A while back I was bored and burned out on a programming project I had started, so I spun up a new design for my website. I also wanted to start using a static website generator and ended up choosing &lt;a href='http://jekyllrb.com'&gt;Jekyll&lt;/a&gt;. I chose Jekyll so I could host it for free with &lt;a href='http://pages.github.com/'&gt;GitHub Pages&lt;/a&gt; as well as learn a little bit of &lt;a href='http://www.ruby-lang.org/en/'&gt;Ruby&lt;/a&gt; and &lt;a href='https://github.com/Shopify/liquid'&gt;Liquid&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Everything about Jekyll and hosting it on GitHub Pages was going very smoothly up until I wanted to use a &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Plugins&quot;&gt;Jekyll Plugin&lt;/a&gt;. Jekyll (without plugins) had almost everything I wanted except it was missing tag support for blog posts. I went with (&lt;a href=&quot;https://github.com/pattex/jekyll-tagging&quot;&gt;jekyll-tagging&lt;/a&gt;) but this ended up breaking my site. I found out after reading the full GitHub Pages documentation that Jekyll plugins are not supported. I fully understand why GitHub doesn’t allow this as it could be a security issue for GitHub.&lt;/p&gt;
 
-&lt;p&gt;Everything about Jekyll and hosting it on GitHub Pages was going very smoothly up until I wanted to use a &lt;a href='https://github.com/mojombo/jekyll/wiki/Plugins'&gt;Jekyll Plugin&lt;/a&gt;. Jekyll (without plugins) had almost everything I wanted except it was missing tag support for blog posts. I went with (&lt;a href='https://github.com/pattex/jekyll-tagging'&gt;jekyll-tagging&lt;/a&gt;) but this ended up breaking my site. I found out after reading the full GitHub Pages documentation that Jekyll plugins are not supported. I fully understand why GitHub doesn&amp;#8217;t allow this as it could be a security issue for GitHub.&lt;/p&gt;
+&lt;h4 id=&quot;encountering-a-small-problem&quot;&gt;Encountering a small problem&lt;/h4&gt;
+&lt;p&gt;I was really set on using GitHub Pages as my host because who doesn’t like free web hosting? So I did some research on this obstacle and found that some people just generated their site and pushed the static files to GitHub and added a file named &lt;code&gt;.nojekyll&lt;/code&gt; to the repository so GitHub pages doesn’t use Jekyll but instead &lt;a href=&quot;https://help.github.com/articles/files-that-start-with-an-underscore-are-missing&quot;&gt;serves the files you push to the repo&lt;/a&gt;. My goal was to keep one repository with a master branch that contains only the static content generated by Jekyll and a dev branch that had everything Jekyll needed as well as the generated &lt;code&gt;_site&lt;/code&gt;. I wasn’t sure if this was possible so I asked on &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt; if anyone knew if it could be done and if so how to do it because I was stuck.&lt;/p&gt;
 
-&lt;h4 id='encountering_a_small_problem'&gt;Encountering a small problem&lt;/h4&gt;
-
-&lt;p&gt;I was really set on using GitHub Pages as my host because who doesn&amp;#8217;t like free web hosting? So I did some research on this obstacle and found that some people just generated their site and pushed the static files to GitHub and added a file named &lt;code&gt;.nojekyll&lt;/code&gt; to the repository so GitHub pages doesn&amp;#8217;t use Jekyll but instead &lt;a href='https://help.github.com/articles/files-that-start-with-an-underscore-are-missing'&gt;serves the files you push to the repo&lt;/a&gt;. My goal was to keep one repository with a master branch that contains only the static content generated by Jekyll and a dev branch that had everything Jekyll needed as well as the generated &lt;code&gt;_site&lt;/code&gt;. I wasn&amp;#8217;t sure if this was possible so I asked on &lt;a href='http://stackoverflow.com/'&gt;Stack Overflow&lt;/a&gt; if anyone knew if it could be done and if so how to do it because I was stuck.&lt;/p&gt;
-
-&lt;h4 id='attempting_to_solve_the_problem'&gt;Attempting to solve the problem&lt;/h4&gt;
-
-&lt;p&gt;I received an &lt;a href='http://stackoverflow.com/questions/11678592/is-it-possible-to-have-a-github-repo-with-two-branches-that-contain-different-di'&gt;answer to my question&lt;/a&gt; almost immediately with exactly what I needed! I would like to thank &lt;a href='http://stackoverflow.com/users/599922/alexandr-priymak'&gt;Alexandr Priymak&lt;/a&gt; for helping me out and explaining his method and thinking very well. My Jekyll site with plugins is hosted on GitHub Pages thanks to him.&lt;/p&gt;
+&lt;h4 id=&quot;attempting-to-solve-the-problem&quot;&gt;Attempting to solve the problem&lt;/h4&gt;
+&lt;p&gt;I received an &lt;a href=&quot;http://stackoverflow.com/questions/11678592/is-it-possible-to-have-a-github-repo-with-two-branches-that-contain-different-di&quot;&gt;answer to my question&lt;/a&gt; almost immediately with exactly what I needed! I would like to thank &lt;a href=&quot;http://stackoverflow.com/users/599922/alexandr-priymak&quot;&gt;Alexandr Priymak&lt;/a&gt; for helping me out and explaining his method and thinking very well. My Jekyll site with plugins is hosted on GitHub Pages thanks to him.&lt;/p&gt;
 
 &lt;p&gt;Programmers and other tech oriented people can seem unsocial and sometimes arrogant but it is people like Alexandr that remind me that communities like Stack Overflow, Reddit, and GitHub are filled with the best kind of people. These people take their time to help others out solely for the sake of helping (and possibly some internet points) and are passionate about software and technology in general.&lt;/p&gt;
 
@@ -201,464 +180,492 @@
 
 &lt;p&gt;Lastly on a more technical note if you would like to do what I have done and use one repository on GitHub to host a Jekyll site with plugins you can check out the Stack Overflow thread I linked above or just look at the following commands.&lt;/p&gt;
 
-&lt;h4 id='problem_solved'&gt;Problem solved!&lt;/h4&gt;
-
+&lt;h4 id=&quot;problem-solved&quot;&gt;Problem solved!&lt;/h4&gt;
 &lt;p&gt;These commands assume that you have a master branch and a development branch named them whatever you want. Mine are named master and dev.&lt;/p&gt;
 
 &lt;p&gt;This command creates a commit object of the development branches generated &lt;code&gt;_site&lt;/code&gt; directory and then outputs the commits ID. We will need the ID for later so make sure that we are able to copy and paste it or at least view it.&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;&lt;span class='nb'&gt;echo&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;description of what we are doing&amp;#39;&lt;/span&gt; | git commit-tree dev^&lt;span class='o'&gt;{&lt;/span&gt;tree&lt;span class='o'&gt;}&lt;/span&gt;:_site
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;description of what we are doing&#39;&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Now that we have a commit object that contains only the static content in &lt;code&gt;_site&lt;/code&gt; we want to update the master branch so that it only contains those files.&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;git update-ref refs/heads/master COMMIT_ID
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git update-ref refs/heads/master COMMIT_ID&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;So now we run a &lt;code&gt;checkout&lt;/code&gt; on the master branch and should see only the contents of the &lt;code&gt;_site&lt;/code&gt; directory.&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;git checkout master
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;This is exactly what we want but since we didn&amp;#8217;t specify a parent for the commit we will need to push to GitHub with a force push.&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;git push -f origin master
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git checkout master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This is exactly what we want but since we didn’t specify a parent for the commit we will need to push to GitHub with a force push.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git push -f origin master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;On the other hand we can specify a parent before the push which enables us to bypass the &lt;code&gt;-f&lt;/code&gt; option on our git push.&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;&lt;span class='nb'&gt;echo&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;description of what we are doing&amp;#39;&lt;/span&gt; | git commit-tree dev^&lt;span class='o'&gt;{&lt;/span&gt;tree&lt;span class='o'&gt;}&lt;/span&gt;:_site -p &lt;span class='k'&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class='k'&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;We don&amp;#8217;t want to have to do all these steps every time so instead we can do everything but the push in one step like this:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;git update-ref refs/heads/master &lt;span class='k'&gt;$(&lt;/span&gt;&lt;span class='nb'&gt;echo&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;Add commit message here!&amp;#39;&lt;/span&gt; | git commit-tree dev^&lt;span class='o'&gt;{&lt;/span&gt;tree&lt;span class='o'&gt;}&lt;/span&gt;:_site -p &lt;span class='k'&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class='k'&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;description of what we are doing&#39;&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site -p &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We don’t want to have to do all these steps every time so instead we can do everything but the push in one step like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git update-ref refs/heads/master &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Add commit message here!&#39;&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site -p &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class=&quot;k&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;And then we just checkout the master branch and push it to GitHub. Within the next few minutes the site will be built by GitHub Pages!&lt;/p&gt;
 
 &lt;p&gt;Here is the documentaion for the commands we used with git:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://www.kernel.org/pub/software/scm/git/docs/git-commit-tree.html'&gt;git commit-tree&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.kernel.org/pub/software/scm/git/docs/git-update-ref.html'&gt;git update-ref&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html'&gt;git checkout&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.kernel.org/pub/software/scm/git/docs/git-push.html'&gt;git push&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kernel.org/pub/software/scm/git/docs/git-commit-tree.html&quot;&gt;git commit-tree&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kernel.org/pub/software/scm/git/docs/git-update-ref.html&quot;&gt;git update-ref&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html&quot;&gt;git checkout&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kernel.org/pub/software/scm/git/docs/git-push.html&quot;&gt;git push&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Macs are cooler than you think</title>
-    <link href="http://edhedges.github.com/blog/2012/04/04/macs-are-cooler-than-you-think"/>
+    <link href="http://edhedges.github.io/blog/2012/04/04/macs-are-cooler-than-you-think"/>
     <updated>2012-04-04T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/blog/2012/04/04/macs-are-cooler-than-you-think</id>
+    <id>http://edhedges.github.io/blog/2012/04/04/macs-are-cooler-than-you-think</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;h4 id='set_the_story'&gt;Set the story&lt;/h4&gt;
+    <content type="html">&lt;h4 id=&quot;set-the-story&quot;&gt;Set the story&lt;/h4&gt;
+&lt;p&gt;Ok, so first a little background on when I got my Mac. When I graduated in May 2008 my mom and stepdad took me to an &lt;a href=&quot;http://store.apple.com/us&quot;&gt;Apple Store&lt;/a&gt; and I thought it was the coolest place ever. I walked out with a brand new Macbook Pro with 4GB of RAM and 250GB of HD space and a sweet bookbag especially made for carrying laptops. I was on top of the world, but looking back on myself and how I used my Mac back then, I’m slightly embarrased.&lt;/p&gt;
 
-&lt;p&gt;Ok, so first a little background on when I got my Mac. When I graduated in May 2008 my mom and stepdad took me to an &lt;a href='http://store.apple.com/us'&gt;Apple Store&lt;/a&gt; and I thought it was the coolest place ever. I walked out with a brand new Macbook Pro with 4GB of RAM and 250GB of HD space and a sweet bookbag especially made for carrying laptops. I was on top of the world, but looking back on myself and how I used my Mac back then, I&amp;#8217;m slightly embarrased.&lt;/p&gt;
+&lt;p&gt;I had become the &lt;a href=&quot;http://imgace.com/wp-content/uploads/2011/09/2000-facebook-machine.jpg&quot;&gt;typical Mac user&lt;/a&gt; and loved every minute (&lt;a href=&quot;http://i3.kym-cdn.com/entries/icons/original/000/006/482/template.jpg&quot;&gt;Oh God why?&lt;/a&gt;). The applications I used consisted of Safari, iTunes, Microsoft Office 2008, Mail, and a little bit of iMovie. What I am trying to get at is that I could have done all the things I was doing on a &lt;a href=&quot;http://www.microsoft.com/en-us/default.aspx&quot;&gt;Microsoft&lt;/a&gt; product for a much cheaper price. That didn’t matter cause I had a Mac! Don’t worry this post isn’t about bashing on Macs because I love them or bashing on people that own Macs, well not all of them :).&lt;/p&gt;
 
-&lt;p&gt;I had become the &lt;a href='http://imgace.com/wp-content/uploads/2011/09/2000-facebook-machine.jpg'&gt;typical Mac user&lt;/a&gt; and loved every minute (&lt;a href='http://i3.kym-cdn.com/entries/icons/original/000/006/482/template.jpg'&gt;Oh God why?&lt;/a&gt;). The applications I used consisted of Safari, iTunes, Microsoft Office 2008, Mail, and a little bit of iMovie. What I am trying to get at is that I could have done all the things I was doing on a &lt;a href='http://www.microsoft.com/en-us/default.aspx'&gt;Microsoft&lt;/a&gt; product for a much cheaper price. That didn&amp;#8217;t matter cause I had a Mac! Don&amp;#8217;t worry this post isn&amp;#8217;t about bashing on Macs because I love them or bashing on people that own Macs, well not all of them :).&lt;/p&gt;
+&lt;p&gt;Although I started out a typical scrub Mac user I learned a more about the awesome of Macs during my summers as a technology assistant at &lt;a href=&quot;http://www.fredoniaks.com/USD484/Home.html&quot;&gt;Fredonia Highschool&lt;/a&gt; and ever since then I have continued to learn and don’t plan on stopping.&lt;/p&gt;
 
-&lt;p&gt;Although I started out a typical scrub Mac user I learned a more about the awesome of Macs during my summers as a technology assistant at &lt;a href='http://www.fredoniaks.com/USD484/Home.html'&gt;Fredonia Highschool&lt;/a&gt; and ever since then I have continued to learn and don&amp;#8217;t plan on stopping.&lt;/p&gt;
-
-&lt;h4 id='terminal'&gt;Terminal&lt;/h4&gt;
-
+&lt;h4 id=&quot;terminal&quot;&gt;Terminal&lt;/h4&gt;
 &lt;p&gt;The best application that I learned about was Terminal (if you have a Mac find using Spotlight ( Space + Command ) or in /Applications/Utilities/ ( Shift + Command + U )). I first learned the simple &lt;code&gt;say&lt;/code&gt; command. Here are some examples you should try once Terminal is open.&lt;/p&gt;
 
 &lt;p&gt;Examples&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;say Hello, World!
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say Hello, World!
 
 say I did not know Macs were so awesome.
 
-say Eddie Hedges is a cool dude.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+say Eddie Hedges is a cool dude.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;You can do this with any string of letters and or numbers. There is also a list of different voices you can make it say. The voices can be found in System Prefrecences under System then Speech. Under the Text to Speech tab there is a System Voice drop down list which contains the voices. Here are a few examples of how to change the default voice.&lt;/p&gt;
 
 &lt;p&gt;Examples&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;say -v Good This is the good news voice!
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say -v Good This is the good news voice!
 
 say -v Agnes I am Agnes.
 
-say -v Cellos The weather could definitely be cooler yeah
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+say -v Cellos The weather could definitely be cooler yeah&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;While these are very simple commands there are some more complex ones that do things like allow you to play a text based game and even watch Star Wars IV right from Terminal!&lt;/p&gt;
 
 &lt;p&gt;The following command will start up a text based game so read and try typing stuff in there. Have fun! You can quit the game with ( control + C ).&lt;/p&gt;
 
 &lt;p&gt;Play a text based game&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;emacs -batch -l dunnet
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;emacs -batch -l dunnet&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;The following command will start up Star Wars Episode IV in ASCII.&lt;/p&gt;
 
 &lt;p&gt;Watch Star Wars Episode IV&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;telnet towel.blinkenlights.nl
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;I realize that all of these things aren&amp;#8217;t very productive but I use terminal daily for my programming needs. I use it to SSH, scripts, starting all kinds of services, making files and folders, opening files in &lt;a href='http://www.sublimetext.com/2'&gt;Sublime Text 2&lt;/a&gt; and git with GitHub. It helps me be productive and makes me feel like a leet haxor. Okay so now to the point of the post.&lt;/p&gt;
 
-&lt;h4 id='what_it_all_comes_down_to'&gt;What it all comes down to&amp;#8230;&lt;/h4&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;telnet towel.blinkenlights.nl&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;College and high school students are wanting a Mac because it is cool and it almost hurts to watch people pay over two times as much money for a computer that they don&amp;#8217;t know how to use to its full potential, when they could just buy a cheaper one that also has an internet browser and Microsoft Office built in! I&amp;#8217;m a supporter of Apple products but I don&amp;#8217;t think that purchasing a Mac because it is &amp;#8220;cool&amp;#8221; is a smart idea. That is the only reason I wanted a Mac, but I got lucky because I am no longer &amp;#8220;wasting&amp;#8221; the power of my Mac and the money that was spent on it has definitely paid for itself.&lt;/p&gt;
+&lt;p&gt;I realize that all of these things aren’t very productive but I use terminal daily for my programming needs. I use it to SSH, scripts, starting all kinds of services, making files and folders, opening files in &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt; and git with GitHub. It helps me be productive and makes me feel like a leet haxor. Okay so now to the point of the post.&lt;/p&gt;
 
-&lt;p&gt;The gist of it all is don&amp;#8217;t buy a product that you won&amp;#8217;t get your moneys worth out of because not everyone gets lucky like me.&lt;/p&gt;</content>
+&lt;h4 id=&quot;what-it-all-comes-down-to&quot;&gt;What it all comes down to…&lt;/h4&gt;
+&lt;p&gt;College and high school students are wanting a Mac because it is cool and it almost hurts to watch people pay over two times as much money for a computer that they don’t know how to use to its full potential, when they could just buy a cheaper one that also has an internet browser and Microsoft Office built in! I’m a supporter of Apple products but I don’t think that purchasing a Mac because it is “cool” is a smart idea. That is the only reason I wanted a Mac, but I got lucky because I am no longer “wasting” the power of my Mac and the money that was spent on it has definitely paid for itself.&lt;/p&gt;
+
+&lt;p&gt;The gist of it all is don’t buy a product that you won’t get your moneys worth out of because not everyone gets lucky like me.&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Password work with Java and EzAsPy</title>
-    <link href="http://edhedges.github.com/blog/2012/04/02/password-work-with-java-and-ezaspy"/>
+    <link href="http://edhedges.github.io/blog/2012/04/02/password-work-with-java-and-ezaspy"/>
     <updated>2012-04-02T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/blog/2012/04/02/password-work-with-java-and-ezaspy</id>
+    <id>http://edhedges.github.io/blog/2012/04/02/password-work-with-java-and-ezaspy</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;h4 id='java_and_password_resets_work_related'&gt;Java and password resets (work related)&lt;/h4&gt;
+    <content type="html">&lt;h4 id=&quot;java-and-password-resets-work-related&quot;&gt;Java and password resets (work related)&lt;/h4&gt;
+&lt;p&gt;If you’ve read my &lt;a href=&quot;http://edhedges.com/blog/archives/updates-edjmicro-work-and-miscellaneous/&quot;&gt;previous post&lt;/a&gt; you know that I was working on my second project at work. The project consists of making a password change feature for users of the system. Security is key when it comes to people’s data and more specifically people’s money. The first phase of this project is to allow for the admin to send a user an email with a link to change their password. The url includes a parameter that has been mangled thoroughly so that it basically looks like gibberish. That parameter is the most important part of the process as we use it as a way allowing or disallowing the user to change their password. This project has been significantly more complex but it’s more exciting and I’m enjoying it so far.&lt;/p&gt;
 
-&lt;p&gt;If you&amp;#8217;ve read my &lt;a href='http://edhedges.com/blog/archives/updates-edjmicro-work-and-miscellaneous/'&gt;previous post&lt;/a&gt; you know that I was working on my second project at work. The project consists of making a password change feature for users of the system. Security is key when it comes to people&amp;#8217;s data and more specifically people&amp;#8217;s money. The first phase of this project is to allow for the admin to send a user an email with a link to change their password. The url includes a parameter that has been mangled thoroughly so that it basically looks like gibberish. That parameter is the most important part of the process as we use it as a way allowing or disallowing the user to change their password. This project has been significantly more complex but it&amp;#8217;s more exciting and I&amp;#8217;m enjoying it so far.&lt;/p&gt;
+&lt;h4 id=&quot;github-ezaspy-and-more&quot;&gt;GitHub, EzAsPy, and more!&lt;/h4&gt;
+&lt;p&gt;I have recently started paying a whopping $7 dollars to the wonderful people over at &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; to be able to have private code repositories. I was using &lt;a href=&quot;https://bitbucket.org/&quot;&gt;bitbucket&lt;/a&gt; for free private repos but I like everything about GitHub better, plus I’m already using it for my public repositories and I figured I could drop $7 a month for a high quality much deserving service.&lt;/p&gt;
 
-&lt;h4 id='github_ezaspy_and_more'&gt;GitHub, EzAsPy, and more!&lt;/h4&gt;
+&lt;p&gt;In my last post I didn’t have &lt;a href=&quot;https://github.com/edhedges/edjmicro&quot;&gt;edjmicro&lt;/a&gt; completed but I have completed it and used it to start a personal project I am calling EzAsPy. I am still now sure exactly where I want to go with this project but I do know that it is going to be either a static website generator or a CMS type of website. I am very excited about this project because I feel like I’m really getting into some of the core features/standards of websites such as how to do registration, authentication, and main functionality of a product. I plan on open sourcing the project when I push it live.&lt;/p&gt;
 
-&lt;p&gt;I have recently started paying a whopping $7 dollars to the wonderful people over at &lt;a href='https://github.com/'&gt;GitHub&lt;/a&gt; to be able to have private code repositories. I was using &lt;a href='https://bitbucket.org/'&gt;bitbucket&lt;/a&gt; for free private repos but I like everything about GitHub better, plus I&amp;#8217;m already using it for my public repositories and I figured I could drop $7 a month for a high quality much deserving service.&lt;/p&gt;
+&lt;p&gt;Once I get registration and authentication and all the little features that go along with it the way I want I plan on creating some sort of boilerplate for getting up and running quickly with the ability to have users. Right now for registration I am using &lt;a href=&quot;https://bitbucket.org/ubernostrum/django-registration/&quot;&gt;django-registration&lt;/a&gt; but and for authentication I am using the standard Django auth code but am looking at using one of the auth apps that allow for sign in with google, facebook, etc.&lt;/p&gt;
 
-&lt;p&gt;In my last post I didn&amp;#8217;t have &lt;a href='https://github.com/edhedges/edjmicro'&gt;edjmicro&lt;/a&gt; completed but I have completed it and used it to start a personal project I am calling EzAsPy. I am still now sure exactly where I want to go with this project but I do know that it is going to be either a static website generator or a CMS type of website. I am very excited about this project because I feel like I&amp;#8217;m really getting into some of the core features/standards of websites such as how to do registration, authentication, and main functionality of a product. I plan on open sourcing the project when I push it live.&lt;/p&gt;
-
-&lt;p&gt;Once I get registration and authentication and all the little features that go along with it the way I want I plan on creating some sort of boilerplate for getting up and running quickly with the ability to have users. Right now for registration I am using &lt;a href='https://bitbucket.org/ubernostrum/django-registration/'&gt;django-registration&lt;/a&gt; but and for authentication I am using the standard Django auth code but am looking at using one of the auth apps that allow for sign in with google, facebook, etc.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Updates on edjmicro work and more</title>
-    <link href="http://edhedges.github.com/blog/2012/03/15/updates-on-edjmicro-work-and-more"/>
+    <link href="http://edhedges.github.io/blog/2012/03/15/updates-on-edjmicro-work-and-more"/>
     <updated>2012-03-15T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/blog/2012/03/15/updates-on-edjmicro-work-and-more</id>
+    <id>http://edhedges.github.io/blog/2012/03/15/updates-on-edjmicro-work-and-more</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;h4 id='why_i_havent_finished_edjmicro'&gt;Why I haven&amp;#8217;t finished edjmicro&lt;/h4&gt;
+    <content type="html">&lt;h4 id=&quot;why-i-havent-finished-edjmicro&quot;&gt;Why I haven’t finished edjmicro&lt;/h4&gt;
+&lt;p&gt;So recently I’ve been slacking on getting any work done on &lt;a href=&quot;https://github.com/edhedges/edjmicro&quot;&gt;edjmicro&lt;/a&gt;. I blame this on recently becoming addicted to the show &lt;a href=&quot;http://www.imdb.com/title/tt0903747/&quot;&gt;Breaking Bad&lt;/a&gt;. I’m already on Season 4 and it is definitely giving my favorite show &lt;a href=&quot;http://www.imdb.com/title/tt0773262/&quot;&gt;Dexter&lt;/a&gt; a run for its money. Once I am done with Season 4 my work should continue more frequently.&lt;/p&gt;
 
-&lt;p&gt;So recently I&amp;#8217;ve been slacking on getting any work done on &lt;a href='https://github.com/edhedges/edjmicro'&gt;edjmicro&lt;/a&gt;. I blame this on recently becoming addicted to the show &lt;a href='http://www.imdb.com/title/tt0903747/'&gt;Breaking Bad&lt;/a&gt;. I&amp;#8217;m already on Season 4 and it is definitely giving my favorite show &lt;a href='http://www.imdb.com/title/tt0773262/'&gt;Dexter&lt;/a&gt; a run for its money. Once I am done with Season 4 my work should continue more frequently.&lt;/p&gt;
+&lt;h4 id=&quot;a-little-about-edjmicro-and-future-goals&quot;&gt;A little about edjmicro and future goals&lt;/h4&gt;
+&lt;p&gt;I’ve said before that I would like to build a Django based CMS for my own freelance purposes and that will be my next project. I would like the CMS to be flexible with pluggable apps just like django, while being user friendly for both the developer (me) and the user (client). I think this will enable me to spin up functional sites quickly and then focus on customizing the design for each client.&lt;/p&gt;
 
-&lt;h4 id='a_little_about_edjmicro_and_future_goals'&gt;A little about edjmicro and future goals&lt;/h4&gt;
+&lt;h4 id=&quot;work-success&quot;&gt;Work success&lt;/h4&gt;
+&lt;p&gt;I recently completed my project at work described in my &lt;a href=&quot;http://edhedges.com/blog/archives/java-web-development-and-also-some-django/&quot;&gt;previous post&lt;/a&gt; and have been assigned a new project. The task is to create a “reset password” feature that sends an email to the user with an encrypted link. The link will expire in 24 hours. Clicking the link enables the user to reset their password and move on with their experience. I have started the project and I think it will be less time consuming but more complex (security issues) and I look forward to the challenge!&lt;/p&gt;
 
-&lt;p&gt;I&amp;#8217;ve said before that I would like to build a Django based CMS for my own freelance purposes and that will be my next project. I would like the CMS to be flexible with pluggable apps just like django, while being user friendly for both the developer (me) and the user (client). I think this will enable me to spin up functional sites quickly and then focus on customizing the design for each client.&lt;/p&gt;
-
-&lt;h4 id='work_success'&gt;Work success&lt;/h4&gt;
-
-&lt;p&gt;I recently completed my project at work described in my &lt;a href='http://edhedges.com/blog/archives/java-web-development-and-also-some-django/'&gt;previous post&lt;/a&gt; and have been assigned a new project. The task is to create a &amp;#8220;reset password&amp;#8221; feature that sends an email to the user with an encrypted link. The link will expire in 24 hours. Clicking the link enables the user to reset their password and move on with their experience. I have started the project and I think it will be less time consuming but more complex (security issues) and I look forward to the challenge!&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Java and Django Development</title>
-    <link href="http://edhedges.github.com/blog/2012/03/12/java-development-and-some-django"/>
+    <link href="http://edhedges.github.io/blog/2012/03/12/java-development-and-some-django"/>
     <updated>2012-03-12T00:00:00-05:00</updated>
-    <id>http://edhedges.github.com/blog/2012/03/12/java-development-and-some-django</id>
+    <id>http://edhedges.github.io/blog/2012/03/12/java-development-and-some-django</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;p&gt;Last week I found &lt;a href='http://softwaremaniacs.org/blog/2011/01/07/django-micro-framework/en/'&gt;this post&lt;/a&gt; while browsing the &lt;a href='http://www.reddit.com/r/python'&gt;Python subreddit&lt;/a&gt;. I was intrigued by the idea of making my django projects super light weight and so I have been working on a boilerplate for django as a &amp;#8220;micro framework&amp;#8221;. My progress as well as the source can be found &lt;a href='https://github.com/edhedges/edjmicro'&gt;here&lt;/a&gt;. After this project I plan on building a lightweight Content Management System and hope it doesn&amp;#8217;t need to be backed by a database.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Last week I found &lt;a href=&quot;http://softwaremaniacs.org/blog/2011/01/07/django-micro-framework/en/&quot;&gt;this post&lt;/a&gt; while browsing the &lt;a href=&quot;http://www.reddit.com/r/python&quot;&gt;Python subreddit&lt;/a&gt;. I was intrigued by the idea of making my django projects super light weight and so I have been working on a boilerplate for django as a “micro framework”. My progress as well as the source can be found &lt;a href=&quot;https://github.com/edhedges/edjmicro&quot;&gt;here&lt;/a&gt;. After this project I plan on building a lightweight Content Management System and hope it doesn’t need to be backed by a database.&lt;/p&gt;
 
-&lt;h4 id='work_related_ventures'&gt;Work related ventures&lt;/h4&gt;
+&lt;h4 id=&quot;work-related-ventures&quot;&gt;Work related ventures&lt;/h4&gt;
+&lt;p&gt;The first task I was assigned at my job was to write some java code that allows an admin user of the system to find duplicate users and then be able to merge those users. This task allowed me to hit the ground running and really learn a lot about the &lt;a href=&quot;http://www.javaserverfaces.org/&quot;&gt;JSF Framework&lt;/a&gt; and the &lt;a href=&quot;http://www.jboss.org/richfaces&quot;&gt;RichFaces Project&lt;/a&gt;. I also learned more about MySQL and actually writing SQL. Having to do this has really made me thankful that django has an Object Relational Mapper with a rich &lt;a href=&quot;https://docs.djangoproject.com/en/dev/topics/db/queries/&quot;&gt;API&lt;/a&gt;, because this makes all the database work stupidly simple.&lt;/p&gt;
 
-&lt;p&gt;The first task I was assigned at my job was to write some java code that allows an admin user of the system to find duplicate users and then be able to merge those users. This task allowed me to hit the ground running and really learn a lot about the &lt;a href='http://www.javaserverfaces.org/'&gt;JSF Framework&lt;/a&gt; and the &lt;a href='http://www.jboss.org/richfaces'&gt;RichFaces Project&lt;/a&gt;. I also learned more about MySQL and actually writing SQL. Having to do this has really made me thankful that django has an Object Relational Mapper with a rich &lt;a href='https://docs.djangoproject.com/en/dev/topics/db/queries/'&gt;API&lt;/a&gt;, because this makes all the database work stupidly simple.&lt;/p&gt;
+&lt;p&gt;Throughout the project I wrote xml, jQuery, .jsp, SQL, and of course Java. All of my code is contained within 5 files. One thing I hope to improve while working on the web system is what the urls look like. Coming from django I am disappointed there isn’t a simple way to make urls look a little more elegant. For example all the urls have a .jsf extension but with django you can write your patterns and make pretty urls that are readable, dynamic, and don’t contain file extensions (unless for some sick reason you actually write a regular expression to match something like afile.php, but seriously who would do that?).&lt;/p&gt;
 
-&lt;p&gt;Throughout the project I wrote xml, jQuery, .jsp, SQL, and of course Java. All of my code is contained within 5 files. One thing I hope to improve while working on the web system is what the urls look like. Coming from django I am disappointed there isn&amp;#8217;t a simple way to make urls look a little more elegant. For example all the urls have a .jsf extension but with django you can write your patterns and make pretty urls that are readable, dynamic, and don&amp;#8217;t contain file extensions (unless for some sick reason you actually write a regular expression to match something like afile.php, but seriously who would do that?).&lt;/p&gt;
+&lt;p&gt;Overall I am really enjoying the job and can’t wait to get my hands on my next project.&lt;/p&gt;
 
-&lt;p&gt;Overall I am really enjoying the job and can&amp;#8217;t wait to get my hands on my next project.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>My setup</title>
-    <link href="http://edhedges.github.com/blog/2012/03/05/what-is-my-setup"/>
+    <link href="http://edhedges.github.io/blog/2012/03/05/what-is-my-setup"/>
     <updated>2012-03-05T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/03/05/what-is-my-setup</id>
+    <id>http://edhedges.github.io/blog/2012/03/05/what-is-my-setup</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
     <content type="html">&lt;p&gt;In previous posts I have talked quite a bit about what types of programming I do and other nerdy stuff but in this post I would like to recognize &lt;strong&gt;ALL&lt;/strong&gt; the tools I use daily for programming purposes as well as just fun. I think the best way to do this would be in list form, so here goes:&lt;/p&gt;
 
-&lt;h4 id='hardware'&gt;Hardware&lt;/h4&gt;
-
+&lt;h4 id=&quot;hardware&quot;&gt;Hardware&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://www.apple.com/'&gt;MacBook Pro running Mac OS X 10.6.8&lt;/a&gt; - I have had this laptop since the summer of 2008. I got it as a graduation present and still today it is a wonderful machine. It has 2.5GHz Intel Core 2 Duo processing power and 4 GB of Ram. Overall a great machine and I hope that when I get a new mac I am not disappointed because this one has spoiled me.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.apple.com/&quot;&gt;MacBook Pro running Mac OS X 10.6.8&lt;/a&gt; - I have had this laptop since the summer of 2008. I got it as a graduation present and still today it is a wonderful machine. It has 2.5GHz Intel Core 2 Duo processing power and 4 GB of Ram. Overall a great machine and I hope that when I get a new mac I am not disappointed because this one has spoiled me.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='software'&gt;Software&lt;/h4&gt;
-
+&lt;h4 id=&quot;software&quot;&gt;Software&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='https://www.google.com/chrome'&gt;Google Chrome&lt;/a&gt; - This is my browser of choice. If you like applications that are easy to use, fast, and powerful then Google Chrome should be your browser. The first time I tried chrome I immediately knew I wasn&amp;#8217;t ever going to be happy with another browser. I highly recommend this not only for web development/design but for general all purpose web browsing. Also IE sucks.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://store.apple.com/us/browse/home/shop_mac/software'&gt;Apple Mail&lt;/a&gt; - I have been using Apple&amp;#8217;s built in email client since before I had my laptop. There isn&amp;#8217;t a better email client out there in my opinion. I use it to manage my gmail, k-state, and new ACEware email accounts. I think mac users will agree that apple mail beats out any other mail client be it a desktop or web interface.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.sublimetext.com/2'&gt;Sublime Text 2&lt;/a&gt; - This is the newest addition to my toolset and it is completely amazing. Sublime Text 2 is a beautiful and powerful text editor. I have used &lt;a href=''&gt;Notepad++&lt;/a&gt;, &lt;a href=''&gt;TextWrangler&lt;/a&gt;, and many other text editors but none come close to Sublime. I purchased it for $60 and it has been a wonderful investment.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://guides.macrumors.com/Terminal'&gt;Terminal&lt;/a&gt; - This is the coolest application on the Mac hands down. Terminal is a command line application allowing access to be able to control the UNIX base. In high school I liked using terminal for small things such as typing: &lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='sh'&gt;say I am a robot
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.google.com/chrome&quot;&gt;Google Chrome&lt;/a&gt; - This is my browser of choice. If you like applications that are easy to use, fast, and powerful then Google Chrome should be your browser. The first time I tried chrome I immediately knew I wasn’t ever going to be happy with another browser. I highly recommend this not only for web development/design but for general all purpose web browsing. Also IE sucks.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://store.apple.com/us/browse/home/shop_mac/software&quot;&gt;Apple Mail&lt;/a&gt; - I have been using Apple’s built in email client since before I had my laptop. There isn’t a better email client out there in my opinion. I use it to manage my gmail, k-state, and new ACEware email accounts. I think mac users will agree that apple mail beats out any other mail client be it a desktop or web interface.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt; - This is the newest addition to my toolset and it is completely amazing. Sublime Text 2 is a beautiful and powerful text editor. I have used &lt;a href=&quot;&quot;&gt;Notepad++&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;TextWrangler&lt;/a&gt;, and many other text editors but none come close to Sublime. I purchased it for $60 and it has been a wonderful investment.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.macrumors.com/Terminal&quot;&gt;Terminal&lt;/a&gt; - This is the coolest application on the Mac hands down. Terminal is a command line application allowing access to be able to control the UNIX base. In high school I liked using terminal for small things such as typing: 
+&amp;lt;div class=&quot;highlight&quot;&amp;gt;&amp;lt;pre&amp;gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say I am a robot&lt;/code&gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;
+ This command would signal the computer to output the phrase “I am a robot” in an audio version. It hasn’t been until more recently that I have used it for more productive things such as ssh, git and github/bitbucket, fabric and in a more broad sense executing python code. I could go on and on about more specific things I do with terminal but I’ll save that for a future post.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://filezilla-project.org/&quot;&gt;FileZilla&lt;/a&gt; - Another application that has recently grown on me is FileZilla. FileZilla is an application that allows me to do ftp. I have used WinSCP for Windows and Cyberduck for Mac but when I found FileZilla I haven’t looked back. FileZilla is free, cross-platform, user friendly, and powerful.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse&lt;/a&gt; - This application is an integrated development environment mainly used for Java but can be used with other languages. I used eclipse my first year at K-State in the intro programming class when I learned Java. I have picked it back up to use at my new job at &lt;a href=&quot;http://aceware.com/&quot;&gt;ACEware&lt;/a&gt;. I am using it for Java web development using the jsf framework and richfaces.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This command would signal the computer to output the phrase &amp;#8220;I am a robot&amp;#8221; in an audio version. It hasn&amp;#8217;t been until more recently that I have used it for more productive things such as ssh, git and github/bitbucket, fabric and in a more broad sense executing python code. I could go on and on about more specific things I do with terminal but I&amp;#8217;ll save that for a future post.&lt;/p&gt;
-
+&lt;h4 id=&quot;web-resources&quot;&gt;Web Resources&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://filezilla-project.org/'&gt;FileZilla&lt;/a&gt; - Another application that has recently grown on me is FileZilla. FileZilla is an application that allows me to do ftp. I have used WinSCP for Windows and Cyberduck for Mac but when I found FileZilla I haven&amp;#8217;t looked back. FileZilla is free, cross-platform, user friendly, and powerful.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.eclipse.org/'&gt;Eclipse&lt;/a&gt; - This application is an integrated development environment mainly used for Java but can be used with other languages. I used eclipse my first year at K-State in the intro programming class when I learned Java. I have picked it back up to use at my new job at &lt;a href='http://aceware.com/'&gt;ACEware&lt;/a&gt;. I am using it for Java web development using the jsf framework and richfaces.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt; - Google is my go to resource for everything. I honestly don’t know what I would do without it. Why read a book when you can just google it right?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/&quot;&gt;github&lt;/a&gt; - A place where coders can collaborate and store their project by using git.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/&quot;&gt;bitbucket&lt;/a&gt; - Similar to github but not as pretty in my opinion. I use bitbuckets free private repos for deployment since I don’t want people to be able to see if I have sensitive information in my live code.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://djangoproject.com/&quot;&gt;Django&lt;/a&gt; - This is my main resource for making django powered sites and applications. Django rocks!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dillinger.io/&quot;&gt;Dillinger&lt;/a&gt; - An interactive html5 and markdown editor for the web. I write my blogs and README.md files with Dillinger.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.reddit.com/&quot;&gt;Reddit&lt;/a&gt; - I use reddit for pleasure as well as to stay updated on what other web developers and web designers are doing. This reddit &lt;a href=&quot;http://www.reddit.com/r/webdev+python+django+web_design+webdesign&quot;&gt;LINK&lt;/a&gt; is one of my favorites to browse for learning purposes.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='web_resources'&gt;Web Resources&lt;/h4&gt;
+&lt;p&gt;Resources are great! I highly recommend everything on the list. If there are any questions about any of the information make sure to comment or &lt;a href=&quot;http://edhedges.com/contact/&quot;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href='https://www.google.com/'&gt;Google&lt;/a&gt; - Google is my go to resource for everything. I honestly don&amp;#8217;t know what I would do without it. Why read a book when you can just google it right?&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='https://github.com/'&gt;github&lt;/a&gt; - A place where coders can collaborate and store their project by using git.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='https://bitbucket.org/'&gt;bitbucket&lt;/a&gt; - Similar to github but not as pretty in my opinion. I use bitbuckets free private repos for deployment since I don&amp;#8217;t want people to be able to see if I have sensitive information in my live code.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://djangoproject.com/'&gt;Django&lt;/a&gt; - This is my main resource for making django powered sites and applications. Django rocks!&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://dillinger.io/'&gt;Dillinger&lt;/a&gt; - An interactive html5 and markdown editor for the web. I write my blogs and README.md files with Dillinger.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.reddit.com/'&gt;Reddit&lt;/a&gt; - I use reddit for pleasure as well as to stay updated on what other web developers and web designers are doing. This reddit &lt;a href='http://www.reddit.com/r/webdev+python+django+web_design+webdesign'&gt;LINK&lt;/a&gt; is one of my favorites to browse for learning purposes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Resources are great! I highly recommend everything on the list. If there are any questions about any of the information make sure to comment or &lt;a href='http://edhedges.com/contact/'&gt;contact me&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Comments are live and more stuff</title>
-    <link href="http://edhedges.github.com/blog/2012/02/29/comments-are-live-and-more-stuff"/>
+    <link href="http://edhedges.github.io/blog/2012/02/29/comments-are-live-and-more-stuff"/>
     <updated>2012-02-29T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/02/29/comments-are-live-and-more-stuff</id>
+    <id>http://edhedges.github.io/blog/2012/02/29/comments-are-live-and-more-stuff</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;p&gt;I have updated my blog to allow for anonymous comments using the &lt;a href='https://docs.djangoproject.com/en/dev/ref/contrib/comments/'&gt;django comments framework&lt;/a&gt;!&lt;/p&gt;
+    <content type="html">&lt;p&gt;I have updated my blog to allow for anonymous comments using the &lt;a href=&quot;https://docs.djangoproject.com/en/dev/ref/contrib/comments/&quot;&gt;django comments framework&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;I chose to go anonymous because as it says in the &lt;a href='http://www.python.org/dev/peps/pep-0020/'&gt;Zen of Python&lt;/a&gt; that &lt;code&gt;Simple is better than complex.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I chose to go anonymous because as it says in the &lt;a href=&quot;http://www.python.org/dev/peps/pep-0020/&quot;&gt;Zen of Python&lt;/a&gt; that &lt;code&gt;Simple is better than complex.&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;The jQuery hack hasn&amp;#8217;t been implemented yet but will be soon. The only problem I have is that since I am using the django comments my sites navigation styles I am using don&amp;#8217;t apply when there is an error with the comment form. Other than that I am satisfied with the simple comments that are now live with my blog.&lt;/p&gt;
+&lt;p&gt;The jQuery hack hasn’t been implemented yet but will be soon. The only problem I have is that since I am using the django comments my sites navigation styles I am using don’t apply when there is an error with the comment form. Other than that I am satisfied with the simple comments that are now live with my blog.&lt;/p&gt;
 
-&lt;p&gt;The next update for comments will be to allow for &lt;a href='http://daringfireball.net/projects/markdown/'&gt;markdown&lt;/a&gt; because its awesome!&lt;/p&gt;
+&lt;p&gt;The next update for comments will be to allow for &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;markdown&lt;/a&gt; because its awesome!&lt;/p&gt;
 
-&lt;p&gt;As I mentioned in a &lt;a href='http://edhedges.com/blog/archives/next-items-my-agenda/'&gt;previous post&lt;/a&gt; I wanted to implement markdown syntax to create blog posts and I did!&lt;/p&gt;
+&lt;p&gt;As I mentioned in a &lt;a href=&quot;http://edhedges.com/blog/archives/next-items-my-agenda/&quot;&gt;previous post&lt;/a&gt; I wanted to implement markdown syntax to create blog posts and I did!&lt;/p&gt;
 
-&lt;p&gt;My custom admin form for my blog is just a simple form that reads markdown and converts it to look great once posted but it isn&amp;#8217;t the best for actually writing the post. That is why I have been using &lt;a href='http://dillinger.io/'&gt;Dillinger&lt;/a&gt;. The real time markdown and html5 editing is amazing with a great looking interface. In my opinion there isn&amp;#8217;t a better free online editor.&lt;/p&gt;
+&lt;p&gt;My custom admin form for my blog is just a simple form that reads markdown and converts it to look great once posted but it isn’t the best for actually writing the post. That is why I have been using &lt;a href=&quot;http://dillinger.io/&quot;&gt;Dillinger&lt;/a&gt;. The real time markdown and html5 editing is amazing with a great looking interface. In my opinion there isn’t a better free online editor.&lt;/p&gt;
 
 &lt;p&gt;List view of next items on my agenda:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Make that quick jquery/style change to keep uniformity (because uniformity rocks)&lt;/li&gt;
-
-&lt;li&gt;Adding markdown to the blog comments&lt;/li&gt;
-
-&lt;li&gt;Hopefully pick up some freelance projects along the way&lt;/li&gt;
-
-&lt;li&gt;Implement the ability to add media to my blog app&lt;/li&gt;
-
-&lt;li&gt;In march I will be overhauling my &lt;a href='https://github.com/edhedges/eds-djangoplate'&gt;django boilerplate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Make that quick jquery/style change to keep uniformity (because uniformity rocks)&lt;/li&gt;
+  &lt;li&gt;Adding markdown to the blog comments&lt;/li&gt;
+  &lt;li&gt;Hopefully pick up some freelance projects along the way&lt;/li&gt;
+  &lt;li&gt;Implement the ability to add media to my blog app&lt;/li&gt;
+  &lt;li&gt;In march I will be overhauling my &lt;a href=&quot;https://github.com/edhedges/eds-djangoplate&quot;&gt;django boilerplate&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;That wraps it up for me thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;That wraps it up for me thanks for reading!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Blog changes including comments</title>
-    <link href="http://edhedges.github.com/blog/2012/02/27/blog-changes-with-comments"/>
+    <link href="http://edhedges.github.io/blog/2012/02/27/blog-changes-with-comments"/>
     <updated>2012-02-27T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/02/27/blog-changes-with-comments</id>
+    <id>http://edhedges.github.io/blog/2012/02/27/blog-changes-with-comments</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
     <content type="html">&lt;p&gt;So I said I was going to be adding comments and I decided to just go for anonymous comments because simpler is better.&lt;/p&gt;
 
 &lt;p&gt;In my opinion there is no reason for the user to have to sign in to comment on my blog they can just comment and move on or if they really need to speak to me privately and not in the public eye they can get in touch via the contact form.&lt;/p&gt;
 
-&lt;p&gt;I need to do a bit more testing and maybe a little bit of jquery hacking to keep things uniform since I am using django&amp;#8217;s built in comments I don&amp;#8217;t get to delegate the views without doing extra work that doesn&amp;#8217;t need to be done. The problem is that when a user presses the &lt;code&gt;Add Comment&lt;/code&gt; button they are redirected to a django page with my css/html but I can&amp;#8217;t pass the template a variable so that my site knows where it is at.&lt;/p&gt;
+&lt;p&gt;I need to do a bit more testing and maybe a little bit of jquery hacking to keep things uniform since I am using django’s built in comments I don’t get to delegate the views without doing extra work that doesn’t need to be done. The problem is that when a user presses the &lt;code&gt;Add Comment&lt;/code&gt; button they are redirected to a django page with my css/html but I can’t pass the template a variable so that my site knows where it is at.&lt;/p&gt;
 
-&lt;p&gt;By doing some quick jQuery I should be able to add the one style I need to in order to keep my site uniform. Right before I push it live though I will make sure that all my code is valid from the &lt;a href='http://validator.w3.org/'&gt;W3C Validation Service&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;By doing some quick jQuery I should be able to add the one style I need to in order to keep my site uniform. Right before I push it live though I will make sure that all my code is valid from the &lt;a href=&quot;http://validator.w3.org/&quot;&gt;W3C Validation Service&lt;/a&gt;.&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Next items on my agenda</title>
-    <link href="http://edhedges.github.com/blog/2012/02/24/next-items-on-my-agenda"/>
+    <link href="http://edhedges.github.io/blog/2012/02/24/next-items-on-my-agenda"/>
     <updated>2012-02-24T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/02/24/next-items-on-my-agenda</id>
+    <id>http://edhedges.github.io/blog/2012/02/24/next-items-on-my-agenda</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;p&gt;As for right now I am writing my posts in simple html but I would like to start using &lt;a href='http://daringfireball.net/projects/markdown/'&gt;markdown&lt;/a&gt; so that will be my next update to the blog app. After that is complete I have one more update I want to put on and that is to allow comments possibly using &lt;a href='http://openid.net/'&gt;OpenID&lt;/a&gt;. Lastly I plan on building an API for my blog.&lt;/p&gt;
+    <content type="html">&lt;p&gt;As for right now I am writing my posts in simple html but I would like
+to start using &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;markdown&lt;/a&gt; so that will be my next update to the blog
+app. After that is complete I have one more update I want to put on and
+that is to allow comments possibly using &lt;a href=&quot;http://openid.net/&quot;&gt;OpenID&lt;/a&gt;. Lastly I plan on
+building an API for my blog.&lt;/p&gt;
 
-&lt;p&gt;After that I should be done with the functionality I want. I plan on then doing free lance web design and development as well as a couple web app ideas I have in mind. Overall I just want to immerse myself more into &lt;a href='http://python.org/'&gt;python&lt;/a&gt;, &lt;a href='https://www.djangoproject.com/'&gt;django&lt;/a&gt;, and the web in general.&lt;/p&gt;</content>
+&lt;p&gt;After that I should be done with the functionality I want. I plan on
+then doing free lance web design and development as well as a couple web
+app ideas I have in mind. Overall I just want to immerse myself more
+into &lt;a href=&quot;http://python.org/&quot;&gt;python&lt;/a&gt;, &lt;a href=&quot;https://www.djangoproject.com/&quot;&gt;django&lt;/a&gt;, and the web in general.&lt;/p&gt;
+
+</content>
   </entry>
   
   <entry>
     <title>Back with a new design</title>
-    <link href="http://edhedges.github.com/blog/2012/02/21/i-am-back-with-a-new-design"/>
+    <link href="http://edhedges.github.io/blog/2012/02/21/i-am-back-with-a-new-design"/>
     <updated>2012-02-21T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/02/21/i-am-back-with-a-new-design</id>
+    <id>http://edhedges.github.io/blog/2012/02/21/i-am-back-with-a-new-design</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;p&gt;Well I have been hard at work in the design department because I wanted my site to be responsive and look good on any browser size. I have also been working on my custom blog admin and the thing I am most proud of is that I have built a wonderful django boilerplate.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Well I have been hard at work in the design department because I wanted
+my site to be responsive and look good on any browser size. I have also
+been working on my custom blog admin and the thing I am most proud of is
+that I have built a wonderful django boilerplate.&lt;/p&gt;
 
-&lt;p&gt;My boilerplate is on github and can be found &lt;a href='https://github.com/edhedges/eds-djangoplate'&gt;here&lt;/a&gt;. I built the boilerplate because I wanted a standard setup for all my future projects. The boilerplate will not only help me speed up my development but will make integrating outside code simple as well as making deployment a simple task thanks to &lt;a href='http://docs.fabfile.org/en/1.4.0/index.html'&gt;fabric&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My boilerplate is on github and can be found &lt;a href=&quot;https://github.com/edhedges/eds-djangoplate&quot;&gt;here&lt;/a&gt;. I built the
+boilerplate because I wanted a standard setup for all my future
+projects. The boilerplate will not only help me speed up my development
+but will make integrating outside code simple as well as making
+deployment a simple task thanks to &lt;a href=&quot;http://docs.fabfile.org/en/1.4.0/index.html&quot;&gt;fabric&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Below I will show you a fab function that runs when I deploy to production.&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='py'&gt;    &lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;deploy&lt;/span&gt;&lt;span class='p'&gt;():&lt;/span&gt;
-        &lt;span class='sd'&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
-&lt;span class='sd'&gt;        Deploys the django project.&lt;/span&gt;
-&lt;span class='sd'&gt;        &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
-        &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;mkproject &lt;/span&gt;&lt;span class='si'&gt;%s&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;&lt;/span&gt; &lt;span class='o'&gt;%&lt;/span&gt; &lt;span class='n'&gt;PROJECT_ID&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-        &lt;span class='k'&gt;with&lt;/span&gt; &lt;span class='n'&gt;cd&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;env&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;current_project_dir&lt;/span&gt;&lt;span class='p'&gt;):&lt;/span&gt;
-            &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;git init&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-            &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;git pull https://edhedges@bitbucket.org/edhedges/&lt;/span&gt;&lt;span class='si'&gt;%s&lt;/span&gt;&lt;span class='s'&gt;.git master&amp;#39;&lt;/span&gt; &lt;span class='o'&gt;%&lt;/span&gt; &lt;span class='n'&gt;PROJECT_ID&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-            &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;pip-2.7 install -r conf/requirements.txt&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-            &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;python2.7 manage.py new_secret&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-            &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;python2.7 manage.py syncdb&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-            &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;python2.7 manage.py migrate&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-            &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;mv static/* &lt;/span&gt;&lt;span class='si'&gt;%s&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;&lt;/span&gt; &lt;span class='o'&gt;%&lt;/span&gt; &lt;span class='n'&gt;env&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;static_dir&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-            &lt;span class='k'&gt;with&lt;/span&gt; &lt;span class='n'&gt;cd&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;env&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;static_dir&lt;/span&gt;&lt;span class='p'&gt;):&lt;/span&gt;
-                &lt;span class='n'&gt;run&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;rm -rf admin&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
-        &lt;span class='n'&gt;replace_httpdconf&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;This command I can run by typing ‘fab deploy’ makes a project directory and a virtual environment, then it initializes a git repo in the project folder and pulls my project in. After that is done it install all dependencies using pip and it moves the static folder into my static url. After all that is done it replaces the default httpd.conf file with one tailored to my project and restarts apache.&lt;/p&gt;
+&lt;p&gt;Below I will show you a fab function that runs when I deploy to
+production.&lt;/p&gt;
 
-&lt;p&gt;Sta tuned for more django/python awesome!&lt;/p&gt;</content>
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-py&quot; data-lang=&quot;py&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+        Deploys the django project.
+        &quot;&quot;&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;mkproject &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s&#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PROJECT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current_project_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;git init&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;git pull https://edhedges@bitbucket.org/edhedges/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s.git master&#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PROJECT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;pip-2.7 install -r conf/requirements.txt&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;python2.7 manage.py new_secret&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;python2.7 manage.py syncdb&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;python2.7 manage.py migrate&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;mv static/* &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s&#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;static_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;static_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;rm -rf admin&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;replace_httpdconf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This command I can run by typing ‘fab deploy’ makes a project directory
+and a virtual environment, then it initializes a git repo in the project
+folder and pulls my project in. After that is done it install all
+dependencies using pip and it moves the static folder into my static
+url. After all that is done it replaces the default httpd.conf file with
+one tailored to my project and restarts apache.&lt;/p&gt;
+
+&lt;p&gt;Sta tuned for more django/python awesome!&lt;/p&gt;
+
+</content>
   </entry>
   
   <entry>
     <title>Sidetracked</title>
-    <link href="http://edhedges.github.com/blog/2012/02/11/sidetracked"/>
+    <link href="http://edhedges.github.io/blog/2012/02/11/sidetracked"/>
     <updated>2012-02-11T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/02/11/sidetracked</id>
+    <id>http://edhedges.github.io/blog/2012/02/11/sidetracked</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;p&gt;So… I have recently gotten sidetracked on my blog work because I have been working on a django boilerplate for myself. The goal of my boilerplate is to be as simple/customizable as I need it to be. Another main goal for this boilerplate is that it should easily be pushed my production server hosted by &lt;a href='http://www.webfaction.com/'&gt;WebFaction&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;So… I have recently gotten sidetracked on my blog work because I have
+been working on a django boilerplate for myself. The goal of my
+boilerplate is to be as simple/customizable as I need it to be. Another
+main goal for this boilerplate is that it should easily be pushed my
+production server hosted by &lt;a href=&quot;http://www.webfaction.com/&quot;&gt;WebFaction&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Once I am done with the boilerplate and have tested and streamlined my development process I will be finishing up some blog changes as well as porting my current site to the boilerplate.&lt;/p&gt;
+&lt;p&gt;Once I am done with the boilerplate and have tested and streamlined my
+development process I will be finishing up some blog changes as well as
+porting my current site to the boilerplate.&lt;/p&gt;
 
-&lt;p&gt;My boilerplate will live on my &lt;a href='https://github.com/edhedges'&gt;github profile&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;My boilerplate will live on my &lt;a href=&quot;https://github.com/edhedges&quot;&gt;github profile&lt;/a&gt;.&lt;/p&gt;
+
+</content>
   </entry>
   
   <entry>
     <title>New job and other updates</title>
-    <link href="http://edhedges.github.com/blog/2012/02/08/new-job-and-other-updates"/>
+    <link href="http://edhedges.github.io/blog/2012/02/08/new-job-and-other-updates"/>
     <updated>2012-02-08T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/02/08/new-job-and-other-updates</id>
+    <id>http://edhedges.github.io/blog/2012/02/08/new-job-and-other-updates</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;p&gt;I have accepted a job at &lt;a href='http://www.aceware.com/'&gt;ACEware&lt;/a&gt;. I will be working on a web application using &lt;a href='http://www.java.com/en/'&gt;java&lt;/a&gt; and &lt;a href='http://www.eclipse.org/'&gt;Eclipse&lt;/a&gt;. I am pretty excited to start working for ACEware and expanding my skills in the area of web development.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I have accepted a job at &lt;a href=&quot;http://www.aceware.com/&quot;&gt;ACEware&lt;/a&gt;. I will be working on a web
+application using &lt;a href=&quot;http://www.java.com/en/&quot;&gt;java&lt;/a&gt; and &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse&lt;/a&gt;. I am pretty excited to start
+working for ACEware and expanding my skills in the area of web
+development.&lt;/p&gt;
 
-&lt;h4 id='updates_on_personal_projects'&gt;Updates on personal projects:&lt;/h4&gt;
+&lt;h4 id=&quot;updates-on-personal-projects&quot;&gt;Updates on personal projects:&lt;/h4&gt;
 
-&lt;p&gt;I have started getting a custom admin for edBlog. I currently have the ability to make a post and most of the basic admin functionality written I just need to implement a way to automatically “urlify” my titles. I haven’t implemented the new features like uploading a picture, the ability to comment, or using markdown but that will be coming soon.&lt;/p&gt;</content>
+&lt;p&gt;I have started getting a custom admin for edBlog. I currently have the
+ability to make a post and most of the basic admin functionality written
+I just need to implement a way to automatically “urlify” my titles. I
+haven’t implemented the new features like uploading a picture, the
+ability to comment, or using markdown but that will be coming soon.&lt;/p&gt;
+
+</content>
   </entry>
   
   <entry>
     <title>Katie's website and other stuff</title>
-    <link href="http://edhedges.github.com/blog/2012/02/02/katies-website-and-other-stuff"/>
+    <link href="http://edhedges.github.io/blog/2012/02/02/katies-website-and-other-stuff"/>
     <updated>2012-02-02T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/02/02/katies-website-and-other-stuff</id>
+    <id>http://edhedges.github.io/blog/2012/02/02/katies-website-and-other-stuff</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
-    <content type="html">&lt;p&gt;I just want to give a shout out to my fiance &lt;a href='http://kaitlynelise.info/Kaitlyn_Phillips/Welcome.html'&gt;Katie Phillips&lt;/a&gt; for building a website in &lt;a href='http://www.apple.com/ilife/iweb/'&gt;iWeb&lt;/a&gt;!&lt;/p&gt;
+    <content type="html">&lt;p&gt;I just want to give a shout out to my fiance &lt;a href=&quot;http://kaitlynelise.info/Kaitlyn_Phillips/Welcome.html&quot;&gt;Katie Phillips&lt;/a&gt; for
+building a website in &lt;a href=&quot;http://www.apple.com/ilife/iweb/&quot;&gt;iWeb&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;I had told her before that I would build her a website but she didn’t think she needed one but this year she is taking a class about using technology in the classroom and one of her assignment was to make a site. I am proud of her because to be honest she isn’t that tech savvy.&lt;/p&gt;
+&lt;p&gt;I had told her before that I would build her a website but she didn’t
+think she needed one but this year she is taking a class about using
+technology in the classroom and one of her assignment was to make a
+site. I am proud of her because to be honest she isn’t that tech savvy.&lt;/p&gt;
 
-&lt;h4 id='now_on_to_some_news_about_what_i_will_be_working_on_next'&gt;Now on to some news about what I will be working on next.&lt;/h4&gt;
+&lt;h4 id=&quot;now-on-to-some-news-about-what-i-will-be-working-on-next&quot;&gt;Now on to some news about what I will be working on next.&lt;/h4&gt;
 
-&lt;p&gt;I plan on making my blogging application great and here is a list of some of the things I want to add to it.&lt;/p&gt;
+&lt;p&gt;I plan on making my blogging application great and here is a list of
+some of the things I want to add to it.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;A custom admin because I am using the django admin at the moment and even though its awesome if I want to distribute this app and have others use it their should be a custom admin.&lt;/li&gt;
-
-&lt;li&gt;An ability to leave comments on a post. I haven’t decided whether to make them anonymous or have users sign up for a simple account yet.&lt;/li&gt;
-
-&lt;li&gt;The ability to upload pictures to make it look more appealing.&lt;/li&gt;
-
-&lt;li&gt;I currently make my posts by writing html that goes into my page from the admin but I want to start using &lt;a href='http://en.wikipedia.org/wiki/Markdown'&gt;markdown&lt;/a&gt;. I am really excited for this part because I found an awesome online editor called &lt;a href='http://dillinger.io/'&gt;Dillinger&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A custom admin because I am using the django admin at the moment and
+even though its awesome if I want to distribute this app and have
+others use it their should be a custom admin.&lt;/li&gt;
+  &lt;li&gt;An ability to leave comments on a post. I haven’t decided whether to
+make them anonymous or have users sign up for a simple account yet.&lt;/li&gt;
+  &lt;li&gt;The ability to upload pictures to make it look more appealing.&lt;/li&gt;
+  &lt;li&gt;I currently make my posts by writing html that goes into my page
+from the admin but I want to start using &lt;a href=&quot;http://en.wikipedia.org/wiki/Markdown&quot;&gt;markdown&lt;/a&gt;. I am really
+excited for this part because I found an awesome online editor
+called &lt;a href=&quot;http://dillinger.io/&quot;&gt;Dillinger&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Lastly I know there are tons of blogging apps out there in many languages but I am building this app because I want it to be the simplest (for users) as well as learn many things along the way.&lt;/p&gt;
+&lt;p&gt;Lastly I know there are tons of blogging apps out there in many
+languages but I am building this app because I want it to be the
+simplest (for users) as well as learn many things along the way.&lt;/p&gt;
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+
+</content>
   </entry>
   
   <entry>
     <title>Django from development to production</title>
-    <link href="http://edhedges.github.com/blog/2012/02/01/django-from-development-to-production"/>
+    <link href="http://edhedges.github.io/blog/2012/02/01/django-from-development-to-production"/>
     <updated>2012-02-01T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/02/01/django-from-development-to-production</id>
+    <id>http://edhedges.github.io/blog/2012/02/01/django-from-development-to-production</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
     <content type="html">&lt;p&gt;In this blog I will briefly describe my process of taking my local development work and putting it into production which is what I did with this site and its features.&lt;/p&gt;
 
 &lt;p&gt;For my development process I am using the simple local server that django/python provides you by running:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='pycon'&gt;&lt;span class='go'&gt;python manage.py runserver&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;If you are a more experienced dev then there are things such as &lt;a href='http://pypi.python.org/pypi/virtualenv'&gt;virtualenv&lt;/a&gt; and &lt;a href='http://docs.fabfile.org/en/1.3.4/index.html'&gt;fabric&lt;/a&gt; but I kept it simple for this first large project.&lt;/p&gt;
 
-&lt;p&gt;I use &lt;a href='http://www.webfaction.com/'&gt;webfaction&lt;/a&gt; as my hosting service and love them. The admin side allows for easy installation of django and MySQL database creation from the browser! If you are looking into doing development I would definitely check out webfaction.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-pycon&quot; data-lang=&quot;pycon&quot;&gt;python manage.py runserver&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you are a more experienced dev then there are things such as &lt;a href=&quot;http://pypi.python.org/pypi/virtualenv&quot;&gt;virtualenv&lt;/a&gt; and &lt;a href=&quot;http://docs.fabfile.org/en/1.3.4/index.html&quot;&gt;fabric&lt;/a&gt; but I kept it simple for this first large project.&lt;/p&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;http://www.webfaction.com/&quot;&gt;webfaction&lt;/a&gt; as my hosting service and love them. The admin side allows for easy installation of django and MySQL database creation from the browser! If you are looking into doing development I would definitely check out webfaction.&lt;/p&gt;
 
 &lt;p&gt;Now getting back on track below will be a list of things that will be different for production in the settings.py file from your local project.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Set DEBUG and TEMPLATE_DEBUG = False&lt;/li&gt;
-
-&lt;li&gt;Make sure to change your DATABASES if you plan on not using sqlite3&lt;/li&gt;
-
-&lt;li&gt;Lastly make sure your static, media, and template settings are changed to match your production file layout.&lt;/li&gt;
+  &lt;li&gt;Set DEBUG and TEMPLATE_DEBUG = False&lt;/li&gt;
+  &lt;li&gt;Make sure to change your DATABASES if you plan on not using sqlite3&lt;/li&gt;
+  &lt;li&gt;Lastly make sure your static, media, and template settings are changed to match your production file layout.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I think the first two are pretty self explanatory and well documented in the django docs but the third gave me a bit of a headache. During development django will get static files from within your project but when DEBUG = False (&lt;a href='https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-DEBUG'&gt;which it should be when its in production&lt;/a&gt;) django will not serve those static files. In webfaction I have made a static application which lives at a specific URL and that will serve all my css, js, and other static files. For a more in depth look at deploying django check out the &lt;a href='http://www.djangobook.com/en/2.0/chapter12/'&gt;django book chapter 12&lt;/a&gt;. It is a bit old but got me through.&lt;/p&gt;
+&lt;p&gt;I think the first two are pretty self explanatory and well documented in the django docs but the third gave me a bit of a headache. During development django will get static files from within your project but when DEBUG = False (&lt;a href=&quot;https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-DEBUG&quot;&gt;which it should be when its in production&lt;/a&gt;) django will not serve those static files. In webfaction I have made a static application which lives at a specific URL and that will serve all my css, js, and other static files.
+For a more in depth look at deploying django check out the &lt;a href=&quot;http://www.djangobook.com/en/2.0/chapter12/&quot;&gt;django book chapter 12&lt;/a&gt;. It is a bit old but got me through.&lt;/p&gt;
 
-&lt;p&gt;That sums it up thanks for reading!&lt;/p&gt;</content>
+&lt;p&gt;That sums it up thanks for reading!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Welcome to edBlog!</title>
-    <link href="http://edhedges.github.com/blog/2012/01/31/welcome-to-edblog"/>
+    <link href="http://edhedges.github.io/blog/2012/01/31/welcome-to-edblog"/>
     <updated>2012-01-31T00:00:00-06:00</updated>
-    <id>http://edhedges.github.com/blog/2012/01/31/welcome-to-edblog</id>
+    <id>http://edhedges.github.io/blog/2012/01/31/welcome-to-edblog</id>
     <author>
       <name>Eddie Hedges</name>
-      <uri>http://edhedges.github.com</uri>
+      <uri>http://edhedges.github.io</uri>
     </author>
     <content type="html">&lt;p&gt;Welcome to edBlog! This is my first of many posts I will be making here on edBlog. I plan to blog about my life, code, web stuff, and basically anything I find interesting.&lt;/p&gt;
 
-&lt;p&gt;edBlog is a simple blogging application I built for my own use. It is built using the django framework which is awesome by the way. Django is a web framework built in python. If you are interested go ahead and read more about it &lt;a href='https://www.djangoproject.com/'&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;edBlog is a simple blogging application I built for my own use. It is built using the django framework which is awesome by the way. Django is a web framework built in python. If you are interested go ahead and read more about it &lt;a href=&quot;https://www.djangoproject.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I have recently gotten into web development in python/django and have been loving it. I am planning writing some useful little scripts and also developing some slightly larger applications for the web. Stay tuned here for updates and also don&amp;#8217;t forget to &amp;#8220;fork&amp;#8221; me over at &lt;a href='https://github.com/edhedges'&gt;my github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have recently gotten into web development in python/django and have been loving it. I am planning writing some useful little scripts and also developing some slightly larger applications for the web. Stay tuned here for updates and also don’t forget to “fork” me over at &lt;a href=&quot;https://github.com/edhedges&quot;&gt;my github&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I think that is all for now thanks for reading.&lt;/p&gt;</content>
+&lt;p&gt;I think that is all for now thanks for reading.&lt;/p&gt;
+</content>
   </entry>
   
 </feed>

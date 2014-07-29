@@ -1,18 +1,18 @@
-exclude: [ Gemfile, Gemfile.lock]
-
 sitename: Eddie Hedges
 tagline: Eddie Hedges, Programming, Web Development, Web Design, Code, Hacker
 
-production_url: https://edhedges.com
-url: https://edhedges.com
+production_url: http://edhedges.github.io
+url: http://edhedges.github.io
 baseurl: /
 
 safe: false
-auto: true
 future: false
-pygments: true
-markdown: maruku
+highlighter: rouge
+markdown: Kramdown
 permalink: /blog/:year/:month/:day/:title
 
 tag_page_layout: tag_page
 tag_page_dir: tag
+# to get this to work I modified the source of tagging.rb to match:
+# (https://raw.githubusercontent.com/pattex/jekyll-tagging/f00192b10827ab68a5134bc7a7f8ac5aee983567/lib/jekyll/tagging.rb)
+tag_permalink_style: pretty

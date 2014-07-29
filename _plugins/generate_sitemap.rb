@@ -1,3 +1,4 @@
+# TODO: GET THIS WORKING ON Windows
 # Jekyll sitemap page generator.
 # http://recursive-design.com/projects/jekyll-plugins/
 #

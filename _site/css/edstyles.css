@@ -805,19 +805,35 @@ header h1{
   margin: 0px 3px 0px 3px;
 }
 
-#social_list li a { background-image: url('../img/social.png'); background-repeat:no-repeat; display: inline-block; }
-#social_list li a#facebookicon { background-position: 0 0; width: 32px; height: 32px; }
-#social_list li a#octoicon { background-position: 0 -82px; width: 32px; height: 32px; }
-#social_list li a#linkedinicon { background-position: 0 -164px; width: 32px; height: 32px; }
-#social_list li a#redditicon { background-position: 0 -246px; width: 32px; height: 32px; }
-#social_list li a#rssicon { background-position: 0 -328px; width: 32px; height: 32px; }
-#social_list li a#twittericon { background-position: 0 -410px; width: 32px; height: 32px; }
-#arsenal_list li a { background-image: url('../img/arsenal.png'); background-repeat:no-repeat; display: inline-block; }
-#arsenal_list li a#html5logo { background-position: 0 -196px; width: 48px; height: 48px; }
-#arsenal_list li a#css3logo { background-position: 0 0; width: 48px; height: 48px; }
-#arsenal_list li a#jquerylogo { background-position: 0 -294px; width: 48px; height: 48px; }
-#arsenal_list li a#djangologo { background-position: 0 -98px; width: 48px; height: 48px; }
-#arsenal_list li a#mysqllogo { background-position: 0 -392px; width: 48px; height: 48px; }
+#social_list li a {
+  background-image: url('../img/social.png');
+  background-repeat:no-repeat;
+  display: inline-block;
+}
+
+#social_list li a#octoicon {
+  background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+#social_list li a#stackexchangeicon {
+  background-position: -35px 0;
+	width: 32px;
+	height: 32px;
+}
+
+#social_list li a#linkedinicon {
+  background-position: -69px 0;
+	width: 32px;
+	height: 32px;
+}
+
+#social_list li a#rssicon {
+  background-position: -103px 0;
+	width: 32px;
+	height: 32px;
+}
 
 hr{
   border: solid #fcfcfc;
