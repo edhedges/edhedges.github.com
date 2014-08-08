@@ -1,4 +1,8 @@
-# TODO: GET THIS WORKING ON Windows
+# NOTE: sitemap.xml wasn't getting created. I found the following links
+#   https://github.com/jekyll/jekyll/issues/268
+#   https://gist.github.com/adunkman/920651
+# Removed the relevant code to StaticSitemapFile::write and it worked!
+
 # Jekyll sitemap page generator.
 # http://recursive-design.com/projects/jekyll-plugins/
 #
@@ -32,8 +36,9 @@ module Jekyll
   # when writing the sitemap file.
   class StaticSitemapFile < StaticFile
     def write(dest)
-      super(dest) rescue ArgumentError
-      true
+      # do nothing (who would have thunk)
+      #super(dest) rescue ArgumentError
+      #true
     end
   end
 

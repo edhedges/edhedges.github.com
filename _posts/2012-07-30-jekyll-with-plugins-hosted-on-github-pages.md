@@ -68,7 +68,7 @@ git update-ref refs/heads/master $(echo 'Add commit message here!' | git commit-
 
 And then we just checkout the master branch and push it to GitHub. Within the next few minutes the site will be built by GitHub Pages!
 
-Here is the documentaion for the commands we used with git:
+Here is the documentation for the commands we used with git:
 
 * [git commit-tree](http://www.kernel.org/pub/software/scm/git/docs/git-commit-tree.html)
 * [git update-ref](http://www.kernel.org/pub/software/scm/git/docs/git-update-ref.html)
