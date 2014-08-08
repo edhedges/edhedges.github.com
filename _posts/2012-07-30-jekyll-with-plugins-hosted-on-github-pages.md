@@ -68,6 +68,10 @@ git update-ref refs/heads/master $(echo 'Add commit message here!' | git commit-
 
 And then we just checkout the master branch and push it to GitHub. Within the next few minutes the site will be built by GitHub Pages!
 
+***Update 08/07/2014*** - The above commands have worked fine for my mac, but on my Windows 7 box have had to modify the `git commit-tree dev^{tree}:_site`
+portion of the above commands. The way I do it now looks like this: `git commit-tree dev:_site` so not a huge change, but I felt like I needed to document
+it since I will most likely forget and come back to reference this post.
+
 Here is the documentation for the commands we used with git:
 
 * [git commit-tree](http://www.kernel.org/pub/software/scm/git/docs/git-commit-tree.html)

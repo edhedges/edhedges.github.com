@@ -3,7 +3,7 @@
   <title>Eddie Hedges</title>
   <link href="http://edhedges.github.io" />
   <link href="http://edhedges.github.io/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2014-08-07T22:08:46-05:00</updated>
+  <updated>2014-08-07T22:19:27-05:00</updated>
   <id>http://edhedges.github.io</id>
   <author>
     <name>Eddie Hedges</name>
@@ -300,6 +300,10 @@ a battery to provide power. The possibilities are endless!&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git update-ref refs/heads/master &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Add commit message here!&#39;&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site -p &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class=&quot;k&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;And then we just checkout the master branch and push it to GitHub. Within the next few minutes the site will be built by GitHub Pages!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Update 08/07/2014&lt;/em&gt;&lt;/strong&gt; - The above commands have worked fine for my mac, but on my Windows 7 box have had to modify the &lt;code&gt;git commit-tree dev^{tree}:_site&lt;/code&gt;
+portion of the above commands. The way I do it now looks like this: &lt;code&gt;git commit-tree dev:_site&lt;/code&gt; so not a huge change, but I felt like I needed to document
+it since I will most likely forget and come back to reference this post.&lt;/p&gt;
 
 &lt;p&gt;Here is the documentation for the commands we used with git:&lt;/p&gt;
 
