@@ -936,6 +936,15 @@ code{
 
 .normalUl { margin-left: 25px; list-style: disc; }
 
+ul.normalList {
+    padding-left: 30px;
+}
+
+ol.instructionList {
+    list-style-type: decimal;
+    padding-left: 60px;
+}
+
 /* Pygmentize generated css */
 
 .hll { background-color: #ffffcc }
