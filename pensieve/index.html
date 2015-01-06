@@ -20,34 +20,35 @@ title: Pensieve
         <p>The search box also knows about a <code>-list</code> command. It works like this:</p>
         <ul class="normalList">
             <li><code>-list</code> will return the latest 10 memories</li>
-            <li><code>-list</code> 5 will return the latest 5 memories</li>
-            <li><code>-list</code> 50 will return the latest 50 memories</li>
+            <li><code>-list 5</code> will return the latest 5 memories</li>
+            <li><code>-list 50</code> will return the latest 50 memories</li>
             <li>etc.</li>
         </ul>
         <p><i>Future</i>: I plan on making this open source, but I want to get it on more platforms before that though. Stay tuned...</p>
         
         <h4>Supported Platforms</h4>
         <ul class="normalList">
-            <li>Windows 7</li>
-            <li>There may be more Windows versions that work, but I haven't had a chance to test anything else.</li>
+            <li>Windows 7 - There may be more Windows versions that work, but I have not tested other.</li>
+            <li>Mac OS X 10.9.2 - There may be more Mac version that work, but I have not tested other.</li>
+            <li>Linux versions will be made on request</li>
         </ul>
-
-        <h4>Future Platforms</h4>
-        <ul class="normalList">
-            <li>OS X (as many flavors as I can - this one is next!)</li>
-            <li>Linux Distributions</li>
-        </ul>
-
         <h4>Download/Installation</h4>
         <p>The following instructions will get you up and running on <b>Windows</b>:</p>
         <ol class="instructionList">
-            <li>Download <a href="pensieve.zip">pensieve.zip</a></li>
+            <li>Download <a href="https://bitbucket.org/edhedges/pensieve/src/a7028a017cfb4f94fcf7434ae6cb1f2b0268bbbb/deployment/windows/1.0.0/pensieve.zip?at=master">pensieve.zip</a></li>
             <li>Right click <code>pensieve.zip</code> and click Extract All...</li>
             <li>Copy the extracted <code>pensieve</code> folder to a location of your choosing (mine is <code>C:\Program Files\</code>)</li>
             <li>Run by double clicking the <code>nw.exe</code> file inside the <code>pensieve</code> folder (it's named <code>nw.exe</code> because
             of a bug in a supporting library I used to develop the program)</li>
             <li><i>Optional</i>: If running the Pensieve by double clicking a file called <code>nw.exe</code> grinds your gears just create a shortcut named <code>Pensieve</code>. Do this by right clicking and selected Create shortcut and rename that file to <code>Pensieve</code>.</li>
             <li><i>Optional</i>: Read the README.txt for instructions on running and a little more information about the Pensieve</li>
+        </ol>
+        <p>The following instructions will get you up and running on <b>Mac OS X</b>:</p>
+        <ol class="instructionList">
+            <li>Download <a href="https://bitbucket.org/edhedges/pensieve/src/a7028a017cfb4f94fcf7434ae6cb1f2b0268bbbb/deployment/mac/1.0.0/pensieve.app/Contents/?at=master">pensieve.zip</a></li>
+            <li>Double click <code>pensieve.zip</code> to extract the app (you should be left with just a <code>pensieve.app</code> file)</li>
+            <li>Move <code>pensieve.app</code> to a location of your choosing (mine is in <code>Applications</code>)</li>
+            <li>Run by double clicking <code>pensieve.app</code>. This may not work because of <a href="http://support.apple.com/en-us/HT202491">Gatekeeper</a>. The work around is to control+click and select Open. This will pop up a prompt window which you can then click the Open button on. After the first time of using the work around double clicking the application should work normally.</li>
         </ol>
         
         <h4>Support</h4>
