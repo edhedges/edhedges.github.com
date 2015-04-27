@@ -8,7 +8,7 @@ baseurl: /
 safe: false
 future: false
 highlighter: rouge
-markdown: Kramdown
+markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 tag_page_layout: tag_page
