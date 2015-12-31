@@ -3,7 +3,7 @@
   <title>Eddie Hedges</title>
   <link href="http://edhedges.github.io" />
   <link href="http://edhedges.github.io/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2015-04-26T23:38:07-05:00</updated>
+  <updated>2015-12-31T15:05:05-06:00</updated>
   <id>http://edhedges.github.io</id>
   <author>
     <name>Eddie Hedges</name>
@@ -34,11 +34,11 @@ Raspbian and my initial set up worked fine, but &lt;a href=&quot;http://i.imgur.
 &lt;h4 id=&quot;p-display&quot;&gt;1080p display&lt;/h4&gt;
 
 &lt;p&gt;The first improvement I made was to get my RPi to display nicely on &lt;a href=&quot;http://www.asus.com/Monitors/VS239H/&quot;&gt;my monitor&lt;/a&gt;. I couldn’t find any information specifically for my monitor so
-I played around with changing different values of my &lt;code&gt;/boot/config.txt&lt;/code&gt; using the &lt;a href=&quot;http://elinux.org/RPiconfig&quot;&gt;RPiconfig documentation&lt;/a&gt;.&lt;/p&gt;
+I played around with changing different values of my &lt;code class=&quot;highlighter-rouge&quot;&gt;/boot/config.txt&lt;/code&gt; using the &lt;a href=&quot;http://elinux.org/RPiconfig&quot;&gt;RPiconfig documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The NOOBS installation of Raspbian set me up with some default configurations and I ended up changing the following three sections of the config:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# I uncommented the following two lines and changed the value of hdmi_mode to 16
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# I uncommented the following two lines and changed the value of hdmi_mode to 16
 hdmi_group=1
 hdmi_mode=16
 
@@ -51,6 +51,7 @@ hdmi_mode=16
 # Changed the value to 1
 disable_overscan=1
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h4 id=&quot;shiny-new-toys&quot;&gt;Shiny new toys&lt;/h4&gt;
 
@@ -79,8 +80,8 @@ post to a tee and I had wireless connectivity!&lt;/p&gt;
 &lt;p&gt;2/3 working USB devices…&lt;/p&gt;
 
 &lt;p&gt;Fixing the sound card should have been a quick, but due to lack of knowledge of Linux and &lt;a href=&quot;http://www.alsa-project.org/main/index.php/Main_Page&quot;&gt;ALSA&lt;/a&gt; it took me far too long to figure out.
-The first thing I did was run &lt;code&gt;lsusb&lt;/code&gt; in order to see if the RPi even detected my sound card, which it did. Since the usb device was recognized
-I narrowed my search to things relating to ALSA. I found that by running &lt;code&gt;cat /proc/asound/cards&lt;/code&gt; I could check the existence of a machine’s
+The first thing I did was run &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; in order to see if the RPi even detected my sound card, which it did. Since the usb device was recognized
+I narrowed my search to things relating to ALSA. I found that by running &lt;code class=&quot;highlighter-rouge&quot;&gt;cat /proc/asound/cards&lt;/code&gt; I could check the existence of a machine’s
 sound cards. The sound card existed, but it wasn’t the first/default one. I then found this &lt;a href=&quot;http://www.raspberrypi.org/forums/viewtopic.php?t=20866&quot;&gt;forum post by ski522&lt;/a&gt; and used the first step example to demote
 the onboard sound card. I rebooted my RPi and it worked!&lt;/p&gt;
 
@@ -90,11 +91,11 @@ the onboard sound card. I rebooted my RPi and it worked!&lt;/p&gt;
 
 &lt;p&gt;Now that all my new toys are working, I realized it might be nice to be able to remote into my RPi and use it as a headless computer. I did some searching and
 found official &lt;a href=&quot;http://www.raspberrypi.org/documentation/remote-access/vnc/&quot;&gt;RPi VNC docs&lt;/a&gt;, which I paired with a &lt;a href=&quot;http://www.penguintutor.com/linux/tightvnc&quot;&gt;Penguin Tutor&lt;/a&gt; tutorial. I was able to set up my RPi to start up a vncserver on boot. I then connect to it
-from my Windows 7 machine. The Penguin Tutor tutorial is only important if like me you want to run the vncserver instance as a user other than &lt;code&gt;root&lt;/code&gt;.&lt;/p&gt;
+from my Windows 7 machine. The Penguin Tutor tutorial is only important if like me you want to run the vncserver instance as a user other than &lt;code class=&quot;highlighter-rouge&quot;&gt;root&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;A final pro tip about beheading an RPi is that the vnc client will need the IP address of the RPi and index of the vncserver instance. I use the command &lt;code&gt;ping
+&lt;p&gt;A final pro tip about beheading an RPi is that the vnc client will need the IP address of the RPi and index of the vncserver instance. I use the command &lt;code class=&quot;highlighter-rouge&quot;&gt;ping
 raspberrypi&lt;/code&gt; to find the IP of my RPi connected to my network. If you are only starting one vncserver the index would be 0. This means that the remote host of
-my RPi looks like &lt;code&gt;123.456.7.89:0&lt;/code&gt;.&lt;/p&gt;
+my RPi looks like &lt;code class=&quot;highlighter-rouge&quot;&gt;123.456.7.89:0&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;With my &lt;a href=&quot;http://i.imgur.com/NJdYV4P.jpg&quot;&gt;headless Pi current set up&lt;/a&gt; the only wire that needs to be plugged in is the power supply. This means that in theory I could go full wireless by using
 a battery to provide power. The possibilities are endless!&lt;/p&gt;
@@ -261,7 +262,7 @@ a battery to provide power. The possibilities are endless!&lt;/p&gt;
 &lt;p&gt;Everything about Jekyll and hosting it on GitHub Pages was going very smoothly up until I wanted to use a &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Plugins&quot;&gt;Jekyll Plugin&lt;/a&gt;. Jekyll (without plugins) had almost everything I wanted except it was missing tag support for blog posts. I went with (&lt;a href=&quot;https://github.com/pattex/jekyll-tagging&quot;&gt;jekyll-tagging&lt;/a&gt;) but this ended up breaking my site. I found out after reading the full GitHub Pages documentation that Jekyll plugins are not supported. I fully understand why GitHub doesn’t allow this as it could be a security issue for GitHub.&lt;/p&gt;
 
 &lt;h4 id=&quot;encountering-a-small-problem&quot;&gt;Encountering a small problem&lt;/h4&gt;
-&lt;p&gt;I was really set on using GitHub Pages as my host because who doesn’t like free web hosting? So I did some research on this obstacle and found that some people just generated their site and pushed the static files to GitHub and added a file named &lt;code&gt;.nojekyll&lt;/code&gt; to the repository so GitHub pages doesn’t use Jekyll but instead &lt;a href=&quot;https://help.github.com/articles/files-that-start-with-an-underscore-are-missing&quot;&gt;serves the files you push to the repo&lt;/a&gt;. My goal was to keep one repository with a master branch that contains only the static content generated by Jekyll and a dev branch that had everything Jekyll needed as well as the generated &lt;code&gt;_site&lt;/code&gt;. I wasn’t sure if this was possible so I asked on &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt; if anyone knew if it could be done and if so how to do it because I was stuck.&lt;/p&gt;
+&lt;p&gt;I was really set on using GitHub Pages as my host because who doesn’t like free web hosting? So I did some research on this obstacle and found that some people just generated their site and pushed the static files to GitHub and added a file named &lt;code class=&quot;highlighter-rouge&quot;&gt;.nojekyll&lt;/code&gt; to the repository so GitHub pages doesn’t use Jekyll but instead &lt;a href=&quot;https://help.github.com/articles/files-that-start-with-an-underscore-are-missing&quot;&gt;serves the files you push to the repo&lt;/a&gt;. My goal was to keep one repository with a master branch that contains only the static content generated by Jekyll and a dev branch that had everything Jekyll needed as well as the generated &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt;. I wasn’t sure if this was possible so I asked on &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt; if anyone knew if it could be done and if so how to do it because I was stuck.&lt;/p&gt;
 
 &lt;h4 id=&quot;attempting-to-solve-the-problem&quot;&gt;Attempting to solve the problem&lt;/h4&gt;
 &lt;p&gt;I received an &lt;a href=&quot;http://stackoverflow.com/questions/11678592/is-it-possible-to-have-a-github-repo-with-two-branches-that-contain-different-di&quot;&gt;answer to my question&lt;/a&gt; almost immediately with exactly what I needed! I would like to thank &lt;a href=&quot;http://stackoverflow.com/users/599922/alexandr-priymak&quot;&gt;Alexandr Priymak&lt;/a&gt; for helping me out and explaining his method and thinking very well. My Jekyll site with plugins is hosted on GitHub Pages thanks to him.&lt;/p&gt;
@@ -275,34 +276,34 @@ a battery to provide power. The possibilities are endless!&lt;/p&gt;
 &lt;h4 id=&quot;problem-solved&quot;&gt;Problem solved!&lt;/h4&gt;
 &lt;p&gt;These commands assume that you have a master branch and a development branch named them whatever you want. Mine are named master and dev.&lt;/p&gt;
 
-&lt;p&gt;This command creates a commit object of the development branches generated &lt;code&gt;_site&lt;/code&gt; directory and then outputs the commits ID. We will need the ID for later so make sure that we are able to copy and paste it or at least view it.&lt;/p&gt;
+&lt;p&gt;This command creates a commit object of the development branches generated &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; directory and then outputs the commits ID. We will need the ID for later so make sure that we are able to copy and paste it or at least view it.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'description of what we are doing'&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;description of what we are doing&#39;&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now that we have a commit object that contains only the static content in &lt;code&gt;_site&lt;/code&gt; we want to update the master branch so that it only contains those files.&lt;/p&gt;
+&lt;p&gt;Now that we have a commit object that contains only the static content in &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; we want to update the master branch so that it only contains those files.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git update-ref refs/heads/master COMMIT_ID&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git update-ref refs/heads/master COMMIT_ID&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;So now we run a &lt;code&gt;checkout&lt;/code&gt; on the master branch and should see only the contents of the &lt;code&gt;_site&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;So now we run a &lt;code class=&quot;highlighter-rouge&quot;&gt;checkout&lt;/code&gt; on the master branch and should see only the contents of the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; directory.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git checkout master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git checkout master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This is exactly what we want but since we didn’t specify a parent for the commit we will need to push to GitHub with a force push.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git push -f origin master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git push -f origin master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;On the other hand we can specify a parent before the push which enables us to bypass the &lt;code&gt;-f&lt;/code&gt; option on our git push.&lt;/p&gt;
+&lt;p&gt;On the other hand we can specify a parent before the push which enables us to bypass the &lt;code class=&quot;highlighter-rouge&quot;&gt;-f&lt;/code&gt; option on our git push.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'description of what we are doing'&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site -p &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;description of what we are doing&#39;&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site -p &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;We don’t want to have to do all these steps every time so instead we can do everything but the push in one step like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git update-ref refs/heads/master &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Add commit message here!'&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site -p &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class=&quot;k&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;git update-ref refs/heads/master &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Add commit message here!&#39;&lt;/span&gt; | git commit-tree dev^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;tree&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;:_site -p &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat .git/refs/heads/master&lt;span class=&quot;k&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;And then we just checkout the master branch and push it to GitHub. Within the next few minutes the site will be built by GitHub Pages!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Update 08/07/2014&lt;/em&gt;&lt;/strong&gt; - The above commands have worked fine for my mac, but on my Windows 7 box have had to modify the &lt;code&gt;git commit-tree dev^{tree}:_site&lt;/code&gt;
-portion of the above commands. The way I do it now looks like this: &lt;code&gt;git commit-tree dev:_site&lt;/code&gt; so not a huge change, but I felt like I needed to document
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Update 08/07/2014&lt;/em&gt;&lt;/strong&gt; - The above commands have worked fine for my mac, but on my Windows 7 box have had to modify the &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit-tree dev^{tree}:_site&lt;/code&gt;
+portion of the above commands. The way I do it now looks like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit-tree dev:_site&lt;/code&gt; so not a huge change, but I felt like I needed to document
 it since I will most likely forget and come back to reference this post.&lt;/p&gt;
 
 &lt;p&gt;Here is the documentation for the commands we used with git:&lt;/p&gt;
@@ -335,25 +336,25 @@ it since I will most likely forget and come back to reference this post.&lt;/p&g
 &lt;p&gt;Although I started out a typical scrub Mac user I learned a more about the awesome of Macs during my summers as a technology assistant at &lt;a href=&quot;http://www.fredoniaks.com/USD484/Home.html&quot;&gt;Fredonia Highschool&lt;/a&gt; and ever since then I have continued to learn and don’t plan on stopping.&lt;/p&gt;
 
 &lt;h4 id=&quot;terminal&quot;&gt;Terminal&lt;/h4&gt;
-&lt;p&gt;The best application that I learned about was Terminal (if you have a Mac find using Spotlight ( Space + Command ) or in /Applications/Utilities/ ( Shift + Command + U )). I first learned the simple &lt;code&gt;say&lt;/code&gt; command. Here are some examples you should try once Terminal is open.&lt;/p&gt;
+&lt;p&gt;The best application that I learned about was Terminal (if you have a Mac find using Spotlight ( Space + Command ) or in /Applications/Utilities/ ( Shift + Command + U )). I first learned the simple &lt;code class=&quot;highlighter-rouge&quot;&gt;say&lt;/code&gt; command. Here are some examples you should try once Terminal is open.&lt;/p&gt;
 
 &lt;p&gt;Examples&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say Hello, World!
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say Hello, World!
 
 say I did not know Macs were so awesome.
 
-say Eddie Hedges is a cool dude.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+say Eddie Hedges is a cool dude.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;You can do this with any string of letters and or numbers. There is also a list of different voices you can make it say. The voices can be found in System Prefrecences under System then Speech. Under the Text to Speech tab there is a System Voice drop down list which contains the voices. Here are a few examples of how to change the default voice.&lt;/p&gt;
 
 &lt;p&gt;Examples&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say -v Good This is the good news voice!
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say -v Good This is the good news voice!
 
 say -v Agnes I am Agnes.
 
-say -v Cellos The weather could definitely be cooler yeah&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+say -v Cellos The weather could definitely be cooler yeah&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;While these are very simple commands there are some more complex ones that do things like allow you to play a text based game and even watch Star Wars IV right from Terminal!&lt;/p&gt;
 
@@ -361,13 +362,13 @@ say -v Cellos The weather could definitely be cooler yeah&lt;/code&gt;&lt;/pre&g
 
 &lt;p&gt;Play a text based game&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;emacs -batch -l dunnet&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;emacs -batch -l dunnet&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The following command will start up Star Wars Episode IV in ASCII.&lt;/p&gt;
 
 &lt;p&gt;Watch Star Wars Episode IV&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;telnet towel.blinkenlights.nl&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;telnet towel.blinkenlights.nl&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;I realize that all of these things aren’t very productive but I use terminal daily for my programming needs. I use it to SSH, scripts, starting all kinds of services, making files and folders, opening files in &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt; and git with GitHub. It helps me be productive and makes me feel like a leet haxor. Okay so now to the point of the post.&lt;/p&gt;
 
@@ -468,7 +469,7 @@ say -v Cellos The weather could definitely be cooler yeah&lt;/code&gt;&lt;/pre&g
   &lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt; - This is the newest addition to my toolset and it is completely amazing. Sublime Text 2 is a beautiful and powerful text editor. I have used &lt;a href=&quot;&quot;&gt;Notepad++&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;TextWrangler&lt;/a&gt;, and many other text editors but none come close to Sublime. I purchased it for $60 and it has been a wonderful investment.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://guides.macrumors.com/Terminal&quot;&gt;Terminal&lt;/a&gt; - This is the coolest application on the Mac hands down. Terminal is a command line application allowing access to be able to control the UNIX base. In high school I liked using terminal for small things such as typing:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say I am a robot&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;say I am a robot&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;p&gt;This command would signal the computer to output the phrase “I am a robot” in an audio version. It hasn’t been until more recently that I have used it for more productive things such as ssh, git and github/bitbucket, fabric and in a more broad sense executing python code. I could go on and on about more specific things I do with terminal but I’ll save that for a future post.
 * &lt;a href=&quot;http://filezilla-project.org/&quot;&gt;FileZilla&lt;/a&gt; - Another application that has recently grown on me is FileZilla. FileZilla is an application that allows me to do ftp. I have used WinSCP for Windows and Cyberduck for Mac but when I found FileZilla I haven’t looked back. FileZilla is free, cross-platform, user friendly, and powerful.
 * &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse&lt;/a&gt; - This application is an integrated development environment mainly used for Java but can be used with other languages. I used eclipse my first year at K-State in the intro programming class when I learned Java. I have picked it back up to use at my new job at &lt;a href=&quot;http://aceware.com/&quot;&gt;ACEware&lt;/a&gt;. I am using it for Java web development using the jsf framework and richfaces.&lt;/p&gt;
@@ -500,7 +501,7 @@ say -v Cellos The weather could definitely be cooler yeah&lt;/code&gt;&lt;/pre&g
     </author>
     <content type="html">&lt;p&gt;I have updated my blog to allow for anonymous comments using the &lt;a href=&quot;https://docs.djangoproject.com/en/dev/ref/contrib/comments/&quot;&gt;django comments framework&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;I chose to go anonymous because as it says in the &lt;a href=&quot;http://www.python.org/dev/peps/pep-0020/&quot;&gt;Zen of Python&lt;/a&gt; that &lt;code&gt;Simple is better than complex.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I chose to go anonymous because as it says in the &lt;a href=&quot;http://www.python.org/dev/peps/pep-0020/&quot;&gt;Zen of Python&lt;/a&gt; that &lt;code class=&quot;highlighter-rouge&quot;&gt;Simple is better than complex.&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;The jQuery hack hasn’t been implemented yet but will be soon. The only problem I have is that since I am using the django comments my sites navigation styles I am using don’t apply when there is an error with the comment form. Other than that I am satisfied with the simple comments that are now live with my blog.&lt;/p&gt;
 
@@ -537,7 +538,7 @@ say -v Cellos The weather could definitely be cooler yeah&lt;/code&gt;&lt;/pre&g
 
 &lt;p&gt;In my opinion there is no reason for the user to have to sign in to comment on my blog they can just comment and move on or if they really need to speak to me privately and not in the public eye they can get in touch via the contact form.&lt;/p&gt;
 
-&lt;p&gt;I need to do a bit more testing and maybe a little bit of jquery hacking to keep things uniform since I am using django’s built in comments I don’t get to delegate the views without doing extra work that doesn’t need to be done. The problem is that when a user presses the &lt;code&gt;Add Comment&lt;/code&gt; button they are redirected to a django page with my css/html but I can’t pass the template a variable so that my site knows where it is at.&lt;/p&gt;
+&lt;p&gt;I need to do a bit more testing and maybe a little bit of jquery hacking to keep things uniform since I am using django’s built in comments I don’t get to delegate the views without doing extra work that doesn’t need to be done. The problem is that when a user presses the &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Comment&lt;/code&gt; button they are redirected to a django page with my css/html but I can’t pass the template a variable so that my site knows where it is at.&lt;/p&gt;
 
 &lt;p&gt;By doing some quick jQuery I should be able to add the one style I need to in order to keep my site uniform. Right before I push it live though I will make sure that all my code is valid from the &lt;a href=&quot;http://validator.w3.org/&quot;&gt;W3C Validation Service&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -589,22 +590,22 @@ deployment a simple task thanks to &lt;a href=&quot;http://docs.fabfile.org/en/1
 &lt;p&gt;Below I will show you a fab function that runs when I deploy to
 production.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-py&quot; data-lang=&quot;py&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-py&quot; data-lang=&quot;py&quot;&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
         &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
         Deploys the django project.
         &quot;&quot;&quot;&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mkproject &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PROJECT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;mkproject &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s&#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PROJECT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
         &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current_project_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'git init'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'git pull https://edhedges@bitbucket.org/edhedges/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s.git master'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PROJECT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'pip-2.7 install -r conf/requirements.txt'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'python2.7 manage.py new_secret'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'python2.7 manage.py syncdb'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'python2.7 manage.py migrate'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mv static/* &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;static_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;git init&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;git pull https://edhedges@bitbucket.org/edhedges/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s.git master&#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PROJECT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;pip-2.7 install -r conf/requirements.txt&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;python2.7 manage.py new_secret&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;python2.7 manage.py syncdb&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;python2.7 manage.py migrate&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;mv static/* &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s&#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;static_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
             &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;static_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'rm -rf admin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;replace_httpdconf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+                &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;rm -rf admin&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;replace_httpdconf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This command I can run by typing ‘fab deploy’ makes a project directory
 and a virtual environment, then it initializes a git repo in the project
@@ -724,7 +725,7 @@ simplest (for users) as well as learn many things along the way.&lt;/p&gt;
 
 &lt;p&gt;For my development process I am using the simple local server that django/python provides you by running:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-pycon&quot; data-lang=&quot;pycon&quot;&gt;python manage.py runserver&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-pycon&quot; data-lang=&quot;pycon&quot;&gt;python manage.py runserver&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;If you are a more experienced dev then there are things such as &lt;a href=&quot;http://pypi.python.org/pypi/virtualenv&quot;&gt;virtualenv&lt;/a&gt; and &lt;a href=&quot;http://docs.fabfile.org/en/1.3.4/index.html&quot;&gt;fabric&lt;/a&gt; but I kept it simple for this first large project.&lt;/p&gt;
 
